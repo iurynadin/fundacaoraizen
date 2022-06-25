@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1286" height="886.232" viewBox="0 0 1286 886.232">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_43" data-name="Rectangle 43" width="1286" height="886.232" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_40" data-name="Rectangle 40" width="1174.872" height="942.135" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_1" data-name="Mask Group 1" clip-path="url(#clip-path)">
+    <g id="heroIlustra" transform="translate(75.472 52.018)">
+      <line id="Line_1" data-name="Line 1" x2="336.207" y2="96.626" transform="translate(613.63 382.65)" fill="none" stroke="#781f78" stroke-miterlimit="10" stroke-width="90.43"/>
+      <g id="Group_17" data-name="Group 17">
+        <g id="Group_16" data-name="Group 16" clip-path="url(#clip-path-2)">
+          <line id="Line_2" data-name="Line 2" x2="216.903" y2="65.322" transform="translate(952.052 489.475)" fill="none" stroke="#fcb514" stroke-miterlimit="10" stroke-width="40.191"/>
+        </g>
+      </g>
+      <line id="Line_3" data-name="Line 3" x2="143.456" y2="42.313" transform="translate(801.054 345.346)" fill="none" stroke="#eb368f" stroke-miterlimit="10" stroke-width="32.153"/>
+      <line id="Line_4" data-name="Line 4" x2="182.339" y2="52.197" transform="translate(367.461 367.634)" fill="none" stroke="#eb368f" stroke-miterlimit="10" stroke-width="50.239"/>
+      <line id="lenteToggle" x1="182.339" y1="52.196" transform="translate(409.637 246.288)" fill="none" stroke="#fcb514" stroke-miterlimit="10" stroke-width="50.239"/>
+      <line id="Line_6" data-name="Line 6" y1="121.771" x2="33.984" transform="translate(554.22 302.096)" fill="none" stroke="#05c2de" stroke-miterlimit="10" stroke-width="50.239"/>
+      <line id="Line_7" data-name="Line 7" x1="33.984" y2="121.771" transform="translate(371.234 242.251)" fill="none" stroke="#781f78" stroke-miterlimit="10" stroke-width="50.239"/>
+      <g id="Group_19" data-name="Group 19">
+        <g id="Group_18" data-name="Group 18" clip-path="url(#clip-path-2)">
+          <line id="Line_8" data-name="Line 8" x1="158.019" y2="417.498" transform="translate(591.102 496.282)" fill="none" stroke="#05c2de" stroke-miterlimit="10" stroke-width="32.153"/>
+          <line id="Line_9" data-name="Line 9" x2="155.751" y2="440.07" transform="translate(769.031 490.951)" fill="none" stroke="#781f78" stroke-miterlimit="10" stroke-width="30.143"/>
+          <line id="Line_10" data-name="Line 10" x2="58.805" y2="444.945" transform="translate(753.326 495.713)" fill="none" stroke="#eb368f" stroke-miterlimit="10" stroke-width="24.115"/>
+          <path id="Path_51" data-name="Path 51" d="M375.39,43.115l-28.772-7.993-28.773-7.993" transform="translate(-2.209 -0.996)" fill="none" stroke="#fcb514" stroke-miterlimit="10" stroke-width="14.353"/>
+          <path id="Path_52" data-name="Path 52" d="M370.047,16.625,346.655,34.737l-23.39,18.111" transform="translate(-2.247 -0.61)" fill="none" stroke="#05c2de" stroke-miterlimit="10" stroke-width="14.353"/>
+          <path id="Path_53" data-name="Path 53" d="M333.039,8.623l13.685,25.819,13.685,25.819" transform="translate(-2.315 -0.316)" fill="none" stroke="#781f78" stroke-miterlimit="10" stroke-width="14.353"/>
+        </g>
+      </g>
+      <path id="xtoggle" d="M56.679,332.647,45.505,341.3l-11.174,8.652" transform="translate(-70.239 -134.21)" fill="none" stroke="#fcb514" stroke-miterlimit="10" stroke-width="6.856"/>
+      <path id="Path_55" data-name="Path 55" d="M39,328.825l6.537,12.334,6.537,12.334" transform="translate(-70.271 -134.069)" fill="none" stroke="#781f78" stroke-miterlimit="10" stroke-width="6.856"/>
+      <g id="lua">
+        <g id="Group_20" data-name="Group 20" clip-path="url(#clip-path-2)">
+          <path id="Path_56" data-name="Path 56" d="M55.962,16.625C21.163,35.58,8.794,78.31,28.333,112.065s63.59,45.756,98.387,26.8" transform="translate(-0.133 -0.61)" fill="none" stroke="#fcb514" stroke-miterlimit="10" stroke-width="38.133"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
