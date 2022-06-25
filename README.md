@@ -1,0 +1,3 @@
+# Raízen
+yarn
+tailwind

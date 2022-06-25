@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Corpo fontes: 300 a 700 */
+
+@layer components {
+    body {
+        @apply m-0 p-0 box-border font-worksans ;
+    }
+
+    strong{
+        @apply font-bold;
+    }
+
+    .bpvisor {
+        @apply fixed bottom-0 w-8 h-8 left-0 z-50 bg-gray-400 sm:bg-yellow-400 md:bg-red-600 lg:bg-blue-500 xl:bg-green-400 2xl:bg-gray-800 text-center;
+        p {
+            @apply font-bold text-lg;
+            &::before {
+                content: "xs";
+            }
+        }
+        @media (min-width: 640px) {
+            p::before {
+                content: "sm";
+            }
+        }
+        @media (min-width: 768px) {
+            p::before {
+                content: "md";
+            }
+        }
+        @media (min-width: 1020px) {
+            p::before {
+                content: "lg";
+            }
+        }
+        @media (min-width: 1214px) {
+            p::before {
+                content: "xl";
+            }
+        }
+        @media (min-width: 1536px) {
+            p::before {
+                content: "2xl";
+            }
+        }
+    }
+
+    .header {
+
+        .navbar-burger {
+            @apply relative transition-all duration-300 w-6 lg:w-[32px] h-[17px] block z-50;
+        }
+
+        .navbar-burger span {
+            @apply absolute bg-black h-[2px] w-full block transition-all duration-300;
+        }
+
+        .navbar-burger span:nth-child(2) {
+            top: calc(50% - 2px);
+        }
+        .navbar-burger span:nth-child(3) {
+            top: calc(50% + 5px);
+        }
+
+        .navbar-burger.is-active span:nth-child(1) {
+            transform: translateY(7px) rotate(45deg);
+        }
+        .navbar-burger.is-active span:nth-child(2) {
+            opacity: 0;
+        }
+        .navbar-burger.is-active span:nth-child(3) {
+            transform: translateY(-7px) rotate(-45deg);
+        }
+    }
+
+    .header.is-spying {
+        @apply bg-white border-green-500;
+    }
+  
+
+    .secondaryNav{
+        @apply translate-y-secondaryout fixed top-0 h-screen right-0 bg-white flex flex-col z-10 pt-[82px] px-6 duration-500 transition-all;
+
+        &__menu {
+            li{
+                @apply mb-3 w-full;
+                a{
+                    @apply flex flex-row justify-start items-center text-[17px] uppercase leading-tight text-[#78787A];
+                }
+            }
+        }
+    }
+
+    .secondaryNav.is-active{
+        @apply translate-y-0;
+    }
+
+    video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .full-width {
+        width: 100vw;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
+    }
+}

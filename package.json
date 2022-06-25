@@ -1,0 +1,20 @@
+{
+    "name": "raiodrogasil",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "dev": "TAILWIND_MODE=WATCH postcss main.css -o pages/css/style.css --watch --verbose",
+        "prod": "NODE_ENV=production postcss main.css -o pages/css/style.css"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.4",
+        "cssnano": "^5.1.5",
+        "postcss": "^8.4.12",
+        "postcss-cli": "^9.1.0",
+        "tailwindcss": "^3.0.23"
+    },
+    "dependencies": {
+        "cross-env": "^7.0.3"
+    }
+}
