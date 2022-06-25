@@ -5,6 +5,7 @@ module.exports = {
             center: true,
             padding: {
                 DEFAULT: "1rem",
+                'md': '1.2rem',
             },
         },
         screens: {

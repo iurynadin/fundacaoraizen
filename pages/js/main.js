@@ -28,12 +28,12 @@
     $(".hero").hover(
         function(){
             console.log('mouseover');
-            $('.tglBg, #lua').addClass('is-active');
+            $('.tglBg, .lua, .xtoggle').addClass('is-active');
             $('.ball').addClass('fadeout');
         },
         function(){
             console.log('mouseleave');
-            $('.tglBg, #lua').removeClass('is-active');
+            $('.tglBg, .lua, .xtoggle').removeClass('is-active');
             $('.ball').removeClass('fadeout');
         }
     );
