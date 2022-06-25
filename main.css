@@ -49,12 +49,15 @@
     }
 
     .navbar-burger {
-        @apply fixed top-5 right-5 md:top-10 md:right-10  bg-rosa rounded-full z-50 transition-all duration-300 block
+        @apply fixed top-5 -right-28 md:top-10 md:-right-28  bg-rosa rounded-full z-50 transition-all duration-300 block
         w-[70px] h-[70px]
         md:w-[90px] md:h-[90px];
     }
     .navbar-burger.is-active {
         @apply bg-roxo
+    }
+    .navbar-burger.is-spying{
+        @apply right-5;
     }
 
     .navbar-burger span {
@@ -74,17 +77,38 @@
     .navbar-burger.is-active span:nth-child(2) {
         @apply -translate-y-3 md:-translate-y-4 -rotate-45 bg-amarelo;
     }
-    .header {
-
-    }
-
-    .header.is-spying {
-        @apply bg-white border-green-500;
-    }
   
 
+    .heroNav{
+        @apply absolute top-0 right-0 flex flex-col items-end justify-start z-[3];
+        li{
+            @apply mb-3 md:mb-4 w-full text-right last-of-type:mt-4;
+            a{
+                @apply  leading-tight text-white font-medium hover:text-roxo duration-300 transition-all 
+                text-xl
+                md:text-[26px]
+                2xl:text-3xl
+                ;
+            }
+        }
+        li.small{
+            @apply w-full text-right mb-1;
+            a{
+                @apply text-base md:text-xl font-normal 2xl:text-[25px]
+            }
+        }
+    }
+
+    .ball{
+        @apply absolute right-0 translate-x-12 -top-10 bg-roxo w-[100px] h-[100px] block rounded-full z-[2] opacity-100 duration-150 transition-all;
+    }
+
+    .ball.fadeout{
+        @apply opacity-0;
+    }
+
     .secondaryNav{
-        @apply fixed top-0 h-screen right-0 bg-laranja w-10/12 md:w-6/12 lg:w-5/12 xl:w-4/12 flex flex-col z-10 p-6 duration-500 transition-all translate-x-full;
+        @apply fixed top-0 h-screen right-0 bg-amarelo w-10/12 md:w-6/12 lg:w-5/12 xl:w-4/12 flex flex-col z-10 p-6 duration-500 transition-all translate-x-full;
 
         nav{
             @apply h-full pt-3 md:pt-20 flex flex-col items-end justify-between
@@ -128,7 +152,17 @@
     }
 
     .secondaryNav.is-active{
+        @apply translate-x-0 bg-laranja;
+    }
+
+    .transcolor{
+        @apply duration-300 transition-all;
+    }
+    .tglBg.is-active{
         @apply translate-x-0;
+    }
+    .lua.is-active{
+        @apply stroke-laranja;
     }
 
     video {
