@@ -9,21 +9,30 @@
         $(".secondaryNav").toggleClass("is-active");
     }
 
-    $(".secondaryNav__menu li a").on(
-        "click",
-        function (event) {
+    function goto(url) {
+        $("html, body")
+            .stop()
+            .animate({ scrollTop: $(url).offset().top, }, 800, "easeInOutExpo" );
+    }
+
+    $(".secondaryNav__menu li a").on( "click", function (event) {
             event.preventDefault();
             toggleMenu();
             console.log('sai menu')
             var url = $(this).attr("href");
             setTimeout(function () {
-                $("html, body")
-                    .stop()
-                    .animate({ scrollTop: $(url).offset().top, }, 800, "easeInOutExpo" );
+                goto(url)
             }, 200);
 
         }
     );
+
+    $(".heroNav li a").on( "click", function (event) {
+        event.preventDefault();
+        var url = $(this).attr("href");
+        goto(url)
+    }
+);
 
     $(".hero").hover(
         function(){
@@ -35,6 +44,15 @@
             console.log('mouseleave');
             $('.tglBg, .lua, .xtoggle').removeClass('is-active');
             $('.ball').removeClass('fadeout');
+        }
+    );
+
+    $(".quad4").hover(
+        function(){
+            $('.fillquad4').addClass('is-active');
+        },
+        function(){
+            $('.fillquad4').removeClass('is-active');
         }
     );
     

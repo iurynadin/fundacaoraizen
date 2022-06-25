@@ -47,6 +47,7 @@
             }
         }
     }
+    
 
     .navbar-burger {
         @apply fixed top-5 -right-28 md:top-10 md:-right-28  bg-rosa rounded-full z-50 transition-all duration-300 block
@@ -109,6 +110,27 @@
 
     .ball.fadeout{
         @apply opacity-0;
+    }
+
+    .ctXPad{
+        @apply md:px-4 lg:px-10 xl:px-20;
+    }
+
+    .sectionTitle{
+        @apply flex ;
+
+        span{
+            @apply text-2xl md:text-3xl lg:text-[42px] 2xl:text-[50px] font-semibold text-roxo leading-none pt-1 lg:pt-2 xl:pt-4;
+        }
+
+        h1{
+            @apply text-roxo leading-none
+            pl-5 text-3xl
+            md:pl-8 md:text-[40px]
+            lg:pl-10 lg:text-[56px]
+            xl:pl-14 xl:text-[72px]
+            2xl:pl-20  2xl:text-[97px]
+        }
     }
 
     .secondaryNav{
@@ -174,6 +196,9 @@
     }
     .lua.is-active, .xtoggle.is-active{
         @apply stroke-laranja;
+    }
+    .fillquad4{
+        @apply absolute bottom-0 left-0 w-full bg-roxo h-full z-[1] transition-all duration-300;
     }
 
     video {
