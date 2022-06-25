@@ -47,6 +47,7 @@
             }
         }
     }
+    
 
     .navbar-burger {
         @apply fixed top-5 -right-28 md:top-10 md:-right-28  bg-rosa rounded-full z-50 transition-all duration-300 block
@@ -80,13 +81,13 @@
   
 
     .heroNav{
-        @apply absolute top-0 right-0 flex flex-col items-end justify-start z-[3];
+        @apply absolute top-0 right-4 lg:right-0 hidden md:flex flex-col items-end justify-start z-[3];
         li{
-            @apply mb-3 md:mb-4 w-full text-right last-of-type:mt-4;
+            @apply mb-3 lg:mb-4 w-full text-right last-of-type:mt-4;
             a{
                 @apply  leading-tight text-white font-medium hover:text-roxo duration-300 transition-all 
                 text-xl
-                md:text-[26px]
+                lg:text-[26px]
                 2xl:text-3xl
                 ;
             }
@@ -94,17 +95,42 @@
         li.small{
             @apply w-full text-right mb-1;
             a{
-                @apply text-base md:text-xl font-normal 2xl:text-[25px]
+                @apply text-base lg:text-xl font-normal 2xl:text-[25px]
             }
         }
     }
 
+    .ballWrapper{
+        @apply w-full absolute top-0 left-0 h-40 overflow-x-hidden;
+    }
+
     .ball{
-        @apply absolute right-0 translate-x-12 -top-10 bg-roxo w-[100px] h-[100px] block rounded-full z-[2] opacity-100 duration-150 transition-all;
+        @apply absolute bg-roxo w-[100px] h-[100px] hidden md:block rounded-full z-[2] opacity-100 duration-150 transition-all right-[50%] lg:top-10 translate-x-[430px] lg:translate-x-[564px] xl:translate-x-[658px];
     }
 
     .ball.fadeout{
         @apply opacity-0;
+    }
+
+    .ctXPad{
+        @apply md:px-4 lg:px-10 xl:px-20;
+    }
+
+    .sectionTitle{
+        @apply flex ;
+
+        span{
+            @apply text-2xl md:text-3xl lg:text-[42px] 2xl:text-[50px] font-semibold text-roxo leading-none pt-1 lg:pt-2 xl:pt-4;
+        }
+
+        h1{
+            @apply text-roxo leading-none
+            pl-5 text-3xl
+            md:pl-8 md:text-[40px]
+            lg:pl-10 lg:text-[56px]
+            xl:pl-14 xl:text-[72px]
+            2xl:pl-20  2xl:text-[97px]
+        }
     }
 
     .secondaryNav{
@@ -155,14 +181,24 @@
         @apply translate-x-0 bg-laranja;
     }
 
+    .heroTitle{
+        @apply text-[38px] lg:text-[52px] xl:text-[68px] 2xl:text-[97px];
+    }
+
     .transcolor{
         @apply duration-300 transition-all;
     }
-    .tglBg.is-active{
-        @apply translate-x-0;
+    .tglBg {
+        @apply absolute top-0 right-0 h-full bg-amarelo block z-[2] transition-all duration-500 w-0;
     }
-    .lua.is-active{
+    .tglBg.is-active{
+        @apply w-full;
+    }
+    .lua.is-active, .xtoggle.is-active{
         @apply stroke-laranja;
+    }
+    .fillquad4{
+        @apply absolute bottom-0 left-0 w-full bg-roxo h-full z-[1] transition-all duration-300;
     }
 
     video {

@@ -5,6 +5,8 @@ module.exports = {
             center: true,
             padding: {
                 DEFAULT: "1rem",
+                'md': '1.2rem',
+                'sm': '1rem'
             },
         },
         screens: {
@@ -29,13 +31,16 @@ module.exports = {
             translate: {
                 secondaryout: "calc((100vh + 500px) * -1)",
             },
+            width: {
+                shape90: "calc(100% - 20px)",
+            },
             boxShadow: {
             },
             aspectRatio: {
-                ratiodestaque: "163 / 115",
+                quesomosVideo: "13 / 7",
             },
             backgroundImage: {
-                heromobile: "url('../imgs/bg-hero-mobile.jpg')",
+                quemsomos: "url('../svgs/bg-quemsomos.svg')",
             },
             boxShadow: {
             },
