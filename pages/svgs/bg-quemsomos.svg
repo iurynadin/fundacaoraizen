@@ -1,1 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="2386.168" height="1232.836" viewBox="0 0 2386.168 1232.836"><g transform="translate(235.168 -1360.664)"><g transform="translate(26.357)"><line y2="208" transform="translate(252.475 1509)" fill="none" stroke="#1fc0da" stroke-width="20"/><line x1="385" transform="translate(-261.525 1378)" fill="none" stroke="#fdb515" stroke-width="30"/><line x1="1251" transform="translate(381.475 1846)" fill="none" stroke="#f57920" stroke-width="30"/><line y2="618.5" transform="translate(1752.475 1975)" fill="none" stroke="#1fc0da" stroke-width="20"/><path d="M159.337,30A129.336,129.336,0,0,0,30,159.335" transform="translate(222.476 1876.337) rotate(-90)" fill="none" stroke="#781e77" stroke-miterlimit="10" stroke-width="40"/><path d="M159.337,30A129.336,129.336,0,0,0,30,159.335" transform="translate(282.81 1350.663) rotate(90)" fill="none" stroke="#ea368e" stroke-miterlimit="10" stroke-width="40"/><path d="M159.337,30A129.336,129.336,0,0,0,30,159.335" transform="translate(1782.81 1815.999) rotate(90)" fill="none" stroke="#fdb515" stroke-miterlimit="10" stroke-width="60"/></g><rect width="231" height="288" transform="translate(1920 1746)" fill="#fff"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="2386.168" height="1475.337" viewBox="0 0 2386.168 1475.337">
+  <g id="bg-quemsomos" transform="translate(235.168 -1360.663)">
+    <g id="Group_1" data-name="Group 1" transform="translate(26.357)">
+      <line id="Line_1" data-name="Line 1" y2="208" transform="translate(252.475 1509)" fill="none" stroke="#1fc0da" stroke-width="20"/>
+      <line id="Line_2" data-name="Line 2" x1="385" transform="translate(-261.525 1378)" fill="none" stroke="#fdb515" stroke-width="30"/>
+      <line id="Line_3" data-name="Line 3" x1="1251" transform="translate(381.475 1846)" fill="none" stroke="#f57920" stroke-width="30"/>
+      <line id="Line_4" data-name="Line 4" y2="861" transform="translate(1752.475 1975)" fill="none" stroke="#1fc0da" stroke-width="20"/>
+      <path id="Path_1" data-name="Path 1" d="M159.337,30A129.336,129.336,0,0,0,30,159.336" transform="translate(222.476 1876.337) rotate(-90)" fill="none" stroke="#781e77" stroke-miterlimit="10" stroke-width="40"/>
+      <path id="Path_2" data-name="Path 2" d="M159.337,30A129.336,129.336,0,0,0,30,159.336" transform="translate(282.81 1350.663) rotate(90)" fill="none" stroke="#ea368e" stroke-miterlimit="10" stroke-width="40"/>
+      <path id="Path_3" data-name="Path 3" d="M159.337,30A129.336,129.336,0,0,0,30,159.336" transform="translate(1782.81 1815.999) rotate(90)" fill="none" stroke="#fdb515" stroke-miterlimit="10" stroke-width="60"/>
+    </g>
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="231" height="288" transform="translate(1920 1746)" fill="#fff"/>
+  </g>
+</svg>

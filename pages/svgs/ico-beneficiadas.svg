@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="89.217" height="142.366" viewBox="0 0 89.217 142.366">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_94" data-name="Rectangle 94" width="24.058" height="24.859" fill="#05c3de"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_97" data-name="Rectangle 97" width="89.217" height="142.366" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="ico-beneficiadas" transform="translate(-966.377 -4041.5)">
+    <g id="Group_42" data-name="Group 42" transform="translate(998.964 4071.595)">
+      <g id="Group_41" data-name="Group 41" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="Path_77" data-name="Path 77" d="M0,12.029A12.029,12.029,0,0,0,12.029,24.057V0A12.029,12.029,0,0,0,0,12.029" transform="translate(0 0)" fill="#781e77"/>
+        <path id="Path_78" data-name="Path 78" d="M30.638,2.043V26.1a12.029,12.029,0,1,0,0-24.057" transform="translate(-18.609 -1.241)" fill="#f57920"/>
+      </g>
+    </g>
+    <g id="Group_45" data-name="Group 45" transform="translate(966.377 4041.5)">
+      <rect id="Rectangle_95" data-name="Rectangle 95" width="105.138" height="19.384" transform="translate(30.737 134.881) rotate(-67.285)" fill="#791879"/>
+      <rect id="Rectangle_96" data-name="Rectangle 96" width="19.384" height="104.989" transform="translate(0 45.364) rotate(-22.765)" fill="#f67900"/>
+      <g id="Group_44" data-name="Group 44" transform="translate(0)">
+        <g id="Group_43" data-name="Group 43" clip-path="url(#clip-path-2)">
+          <path id="Path_79" data-name="Path 79" d="M2.4,41.838H21.782A22.492,22.492,0,0,1,43.243,19.4V0A41.9,41.9,0,0,0,2.4,41.838" transform="translate(-1.457)" fill="#05c3de"/>
+          <path id="Path_80" data-name="Path 80" d="M117.482,3.116c-.336,0-.671.005-1.005.013v19.4c.334-.015.668-.026,1.005-.026a22.492,22.492,0,0,1,22.466,22.466h19.384A41.9,41.9,0,0,0,117.482,3.116" transform="translate(-70.748 -1.893)" fill="#fdb515"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
