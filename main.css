@@ -113,6 +113,10 @@
     @apply md:px-4 lg:px-10 xl:px-20;
   }
 
+  .halfContainer{
+    @apply w-full md:w-[384px] lg:w-[510px] xl:w-[607px] pl-4 lg:pl-10 xl:pl-20;
+  }
+
   .sectionTitle {
     @apply flex;
 
@@ -194,14 +198,32 @@
   .xtoggle.is-active {
     @apply stroke-laranja;
   }
+
+  .fillquad1 {
+    @apply absolute bg-laranja bottom-0 w-full h-0 left-0 block z-[0] transition-all duration-300 ;
+  }
+  .fillquad2 {
+    @apply absolute bottom-0 w-full h-0 bg-amarelo block z-[1] left-0 transition-all duration-300;
+  }
   .fillquad4 {
     @apply absolute bottom-0 left-0 w-0 bg-roxo h-full z-[1] transition-all duration-300;
+  }
+  .borderquad4{
+    @apply absolute w-[22px] bg-roxo -left-[22px] z-[2]
+    bottom-10 h-[120px] 
+    lg:h-[160px] 
+    xl:h-[200px] 
+    2xl:h-[300px];
   }
 
   .em2021 {
     p {
       @apply text-[22px] lg:text-[26px] xl:text-[32px] 2xl:text-[40px] leading-[0.98em] duration-300 transition-all;
     }
+
+    .small {
+        @apply text-base lg:text-[22px] xl:text-[24px] 2xl:text-[40px] leading-[0.98em] duration-300 transition-all;
+      }
   }
 
   .em2021Title {
