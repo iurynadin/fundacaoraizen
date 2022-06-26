@@ -38,6 +38,8 @@ module.exports = {
             },
             aspectRatio: {
                 quesomosVideo: "13 / 7",
+                infanciaSlider: "15/9"
+
             },
             backgroundImage: {
                 quemsomos: "url('../svgs/bg-quemsomos.svg')",
