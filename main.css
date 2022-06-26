@@ -114,7 +114,7 @@
   }
 
   .halfContainer{
-    @apply w-full md:w-[384px] lg:w-[510px] xl:w-[607px] pl-4 lg:pl-10 xl:pl-20;
+    @apply w-full md:w-[384px] lg:w-[510px] xl:w-[607px]  pl-4 lg:pl-10 xl:pl-20;
   }
 
   .sectionTitle {
@@ -124,6 +124,10 @@
       @apply text-2xl md:text-3xl lg:text-[42px] 2xl:text-[50px] font-semibold text-roxo leading-none pt-1 lg:pt-2 xl:pt-4;
     }
 
+    span.white {
+        @apply text-white;
+      }
+
     h1 {
       @apply text-roxo leading-none
             pl-5 text-3xl
@@ -131,6 +135,9 @@
             lg:pl-10 lg:text-[56px]
             xl:pl-14 xl:text-[72px]
             2xl:pl-20  2xl:text-[97px];
+    }
+    h1.white{
+        @apply text-white;
     }
   }
 

@@ -172,7 +172,7 @@
                     <div class="relative group w-full md:mt-20 py-10 md:pr-10 flex flex-col items-end">
 
                         <div class="halfContainer flex justify-end items-start pl-6 md:pl-20 relative z-[2] gap-x-2">
-                            <img src="./svgs/ico-estrela.svg" class="w-20 lg:w-[100px] xl:w-[160px] 2xl:w-[200px]" alt="">
+                            <img src="./svgs/ico-estrela.svg" class="w-20 lg:w-[100px] xl:w-[160px] 2xl:w-[200px] group-hover:translate-y-4 duration-300 transition-all" alt="">
                             <div>
                                 <div class="em2021Title text-roxo group-hover:text-cyan mb-0 group-hover:translate-x-4">
                                     100<span class="text-4xl lg:text-[52px] xl:text-[70px] 2xl:text-[100px] leading-none">%</span>
@@ -232,16 +232,56 @@
             </section>
 
             <!-- Onde estamos -->
-            <section class="relative" id="ondeestamos">
-                <div class="container ctXPad">
+            <section class="relative my-20 pt-20" id="ondeestamos">
+                <div class="relative container ctXPad z-[3]">
                     <div class="grid md:grid-cols-2 gap-y-5">
-                        <div class="sectionTitle">
-                            <span>3.</span>
-                            <h1>Onde<br><strong>estamos</strong></h1>
+                        <div>
+                            <div class="sectionTitle">
+                                <span class="white">3.</span>
+                                <h1 class="white">Onde<br><strong>estamos</strong></h1>
+                            </div>
+
+                            <div class="pl-0 md:pl-14 lg:pl-20 xl:pl-24 mt-8">
+                                <p class="text-[22px] lg:text-[26px] xl:text-[32px] 2xl:text-[40px] leading-[0.98em] text-rosa font-medium">Não paramos de sonhar...<br>e de realizar</p>
+
+                                <div class="mt-6 md:mt-14 lg:mt-24 xl:mt-28">
+                                    <p class="text-rosa text-xl lg:text-2xl">Já passamos por</p>
+                                    <p class="text-roxo text-[80px] lg:text-[110px] xl:text-[150px] 2xl:text-[200px] leading-[0.88em] m-0">25</p>
+                                    <p class="text-rosa text-xl lg:text-2xl w-full md:w-[200px]">
+                                        <span class="text-2xl lg:text-3xl">
+                                            <strong>municípios</strong><br>
+                                        </span>
+                                        de diferentes regiões do País
+                                    </p>
+                                </div>
+
+                            </div>
+
                         </div>
-                        <div></div>
+                       
+                        <div class="relative flex flex-col justify-end">
+                            <img src="./svgs/legenda-programa.svg" class="relative z-[2]
+                            w-[280px] mt-8 mb-10
+                            md:w-[230px] md:mb-8 md:mt-0 md:-translate-x-7
+                            lg:w-[230px] lg:mb-20 lg:-translate-x-7
+                            xl:w-[250px] xl:mb-32 xl:translate-x-0" alt="">
+                        </div>
                     </div>
+                    <img src="./svgs/mapa-ondeestamos.svg" alt="" class="relative md:absolute md:right-0 
+                    md:-top-20
+                    w-[100%]
+                    md:w-[400px] lg:w-[520px] xl:w-[600px]">
                 </div>
+
+                <!-- bg -->
+                <div class="w-full absolute left-0 overflow-hidden flex justify-center z-[1] bg-ondeestamos bg-[position:left_60%_center] bg-no-repeat bg-[length:auto_88%]
+                md:top-[243px] md:h-[280px]
+                lg:top-[308px] lg:h-[310px]
+                xl:top-[340px] xl:h-[370px] 
+                "></div>
+
+                <!-- faixa amarela -->
+                <div class="absolute w-full bg-amarelo block top-10 left-0 h-[390px] md:h-[230px] lg:h-[300px] xl:h-[340px]"></div>
             </section>
                        
             <!-- Programas -->
