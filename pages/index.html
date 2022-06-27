@@ -309,30 +309,19 @@
                     </div>
                 </div>
             </section>
-            <section class="relative bg-top py-16 h-fit w-full border border-blue-700 bg-no-repeat" style="background-image:url('./svgs/bg-infancia.svg')">
-                <!-- <div class="absolute top-0 h-[1000px] w-full bg-bottom bg-cover bg-no-repeat" style="background-image:url('./svgs/bg-infancia.svg')"></div> -->
-                <div class="relative container w-full flex  border border-black">
-                    
-                    <!-- Slider main container -->
-                    <div class="z-0 swiper aspect-infanciaSlider w-[70vw] border border-red-500">
-                        <!-- Additional required wrapper -->
-                        <div class="z-1 swiper-wrapper">
-                            <!-- Slides -->
-                            <div class="swiper-slide bg-top bg-contain bg-no-repeat" style="background-image:url('./imgs/infancia-1.jpg')"></div>
-                            <div class="swiper-slide bg-top bg-contain bg-no-repeat" style="background-image:url('./imgs/infancia-2.jpg')"></div>
-                            <div class="swiper-slide bg-top bg-contain bg-no-repeat" style="background-image:url('./imgs/infancia-3.jpg')"></div>
-
-                        </div>  
-                        
-                        
+            <section class="relative bg-top pt-5 pb-16 lg:py-16 h-fit w-full bg-no-repeat" style="background-image:url('./svgs/bg-infancia.svg')">
+                    <div class="flex flex-row items-center">
+                        <div class="hidden lg:block pl-[10vw] prev"><img src="./svgs/chevron-double-left.svg" alt=""></div>
+                        <div class="swiper aspect-infanciaSlider w-full lg:w-[60vw]">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide bg-top bg-cover bg-no-repeat" style="background-image:url('./imgs/infancia-1.jpg')"></div>
+                                <div class="swiper-slide bg-top bg-cover bg-no-repeat" style="background-image:url('./imgs/infancia-2.jpg')"></div>
+                                <div class="swiper-slide bg-top bg-contain bg-no-repeat" style="background-image:url('./imgs/infancia-3.jpg')"></div>
+                            </div>  
+                        </div>
+                        <div class="hidden lg:block pr-[10vw] next"><img src="./svgs/chevron-double-right.svg" alt=""></div>                    
                     </div>
-                    <div class="-mb-16 swiper-pagination"></div>                                        
-                    
-                    <div class="z-2 absolute left-0 top-[50%] prev"><img src="./svgs/chevron-double-left.svg" alt=""></div>
-                    <div class="z-2 absolute right-0 top-[50%] next"><img src="./svgs/chevron-double-right.svg" alt=""></div> 
-                    
-                </div>
-                               
+                <div class="swiper-pagination border-2 border-blue-500"></div>                                        
             </section>
 
             <!-- Leia Mais -->
