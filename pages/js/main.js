@@ -59,6 +59,38 @@
             $('.fillquad4').removeClass('is-active');
         }
     );
+
+    var swiper = new Swiper('.swiperInfancia', {
+        loop: true,
+        effect: 'fade',
+        fadeEffect: {
+            crossFade: true
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            type: "bullets"
+        },
+        navigation: {
+            nextEl: '.next',
+            prevEl: '.prev',
+        },
+    });
+
+    var swiperMensagem = new Swiper('.swiperMensagem', {
+        loop: true,
+        effect: 'fade',
+        fadeEffect: {
+            crossFade: true
+        },
+        pagination: {
+            el: ".swiper-pagination2",
+            type: "bullets"
+        },
+        navigation: {
+            nextEl: '.nextMsg',
+            prevEl: '.prevMsg',
+        },
+    });
     
 })(jQuery);
 

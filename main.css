@@ -117,6 +117,10 @@
     @apply w-full md:w-[384px] lg:w-[510px] xl:w-[607px]  pl-4 lg:pl-10 xl:pl-20;
   }
 
+  .halfContainerMsg {
+    @apply w-[90%] mx-auto md:mx-0 md:w-[384px] lg:w-[510px] xl:w-[607px];
+  }
+
   .sectionTitle {
     @apply flex;
 

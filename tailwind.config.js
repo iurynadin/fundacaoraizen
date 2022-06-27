@@ -38,7 +38,8 @@ module.exports = {
             },
             aspectRatio: {
                 quesomosVideo: "13 / 7",
-                infanciaSlider: "9/6"
+                infanciaSlider: "9 / 6",
+                mensagem: "3 / 2"
 
             },
             backgroundImage: {

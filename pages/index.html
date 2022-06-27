@@ -307,14 +307,83 @@
                     </div>
                 </div>
             </section>
-            <section class="relative -mt-20 mb-40 border border-green-500">
+            <section class="relative -mt-20 md:-mt-24 lg:-mt-28 mb-40 mensagem" id="mensagem">
                 <!-- slider -->
-                <div class="w-full relative">
-                    <div class="container ctXPad">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, odio!</p>
+                <div class="swiper swiperMensagem w-full">
+
+                    <div class="swiper-wrapper">
+
+                        <div class="relative swiper-slide z-[1]">
+                            <div class="w-full relative">
+                                <div class="container ctXPad">
+                                    <div class="group grid md:grid-cols-2 gap-10 xl:gap-14">
+                                        <div class="relative">
+                                            <div class="w-full aspect-mensagem bg-slate-300 block overflow-hidden">
+                                                <img src="./imgs/presidente.jpg" class="w-full object-cover object-center group-hover:scale-110 transition-all duration-300" alt="">
+                                            </div>
+                                            <div class="w-[80%] relative h-5 -mt-5 bg-amarelo block">
+                                                <div class="absolute h-7 bg-rosa w-[40%] top-0 -left-4"></div>
+                                            </div>
+                                            <p class="text-roxo text-lg lg:text-xl leading-tight pt-6">
+                                                Mônica Maria Mellão Silveira Mello
+                                                <span class="font-semibold uppercase block text-base lg:text-lg">Fundadora</span>
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <img src="./svgs/ico-aspas.svg" class="w-[120px] 2xl:w-[190px] md:pt-16 group-hover:translate-y-2 transition-all duration-300 mb-4" alt="">
+                                            <p class="text-rosa text-lg lg:text-[22px] xl:text-[28px] 2xl:text-4xl leading-tight lg:w-[90%] xl:w-[90%]">Estou feliz e grata ao ver a trajetória da Fundação Raízen em 2021, marcada por conquistas que consolidam a revisão de seu modelo de atuação em 2018.” </p>
+                                        </div>
+                                    </div>
+                                    <img src="./svgs/chevron-double-right.svg" class="w-8 lg:w-12 block mx-auto nextMsg cursor-pointer" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="w-full swiper-slide relative z-[1]">
+                            <div class="group grid grid-cols-12 pt-10">
+                                <div class="col-span-12 md:col-span-7 bg-laranja flex flex-col items-end pb-20 md:pb-14 lg:pb-20 xl:pb-28">
+                                    <div class="halfContainerMsg -mt-10 md:mr-10 md:pr-20">
+                                        <img src="./svgs/ico-aspas2.svg" class="w-[120px] 2xl:w-[190px] group-hover:translate-y-2 transition-all duration-300 mb-4" alt="">
+
+                                        <p class="text-white text-base lg:text-[22px] xl:text-[28px] 2xl:text-4xl leading-tight">Queremos seguir mudando a perspectiva de crianças e jovens e, para isso, contamos com o apoio de toda a rede de parceiros que vem somando passos a nossa trajetória e pela qual sou grata pelos resultados apresentados nas próximas páginas deste documento.” </p>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-span-12 md:col-span-5 relative">
+                                    <div class="relative -translate-x-10 -translate-y-12">
+                                        <div class="w-full aspect-mensagem block overflow-hidden ">
+                                            <img src="./imgs/diretora.jpg" class="w-full object-cover object-center group-hover:scale-110 transition-all duration-300" alt="">
+                                        </div>
+                                        <div class="w-[80%] relative h-5 -mt-5 bg-laranja block">
+                                            <div class="absolute h-7 bg-roxo w-[40%] top-0 -left-4"></div>
+                                        </div>
+                                        <p class="text-roxo text-lg lg:text-xl leading-tight pt-6 pl-16">
+                                            Paula Carvalho Benevides 
+                                            <span class="font-semibold uppercase block text-base lg:text-lg">Diretora Presidente</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <img src="./svgs/chevron-double-left.svg" class="w-8 lg:w-12 block mx-auto prevMsg cursor-pointer -translate-y-8 lg:-translate-y-16" alt="">
+                        </div>
                     </div>
+
+                    <!-- <div class="swiper-pagination2 border-2 border-blue-500"></div>  -->
+
                 </div>
+                
+
+                
+
+                <img src="./svgs/quarter-circle.svg" class="w-[100px] lg:w-[200px] absolute right-0 md:top-24 lg:top-28 z-0" alt="">
+
             </section>
+
+
+
+
 
             
 
@@ -324,7 +393,7 @@
                 <div class="z-1 absolute bottom-0 left-0 bg-white w-full h-[20%] min-h-[290px] max-h-min"></div>
                 <div class="z-2 absolute top-0 left-0 bg-cyan w-[70%] h-[30px]"></div>
                 <div class="z-2 absolute top-0 right-0 bg-rosa w-[30%] h-[15px]"></div>  
-                              
+
                 <div class="z-3 relative container ctXPad h-full">
                     <div class="group grid grid-cols-1 lg:grid-cols-2 lg:gap-20 h-full content-end ">
                         <img class="w-10 lg:w-44 absolute top-10 lg:top-24 right-5 lg:right-20 group-hover:-translate-x-5 transition-all duration-1000" src="./svgs/nuvens.svg" alt="">
@@ -346,7 +415,7 @@
             <section class="relative bg-top pt-5 pb-16 lg:py-16 h-fit w-full bg-no-repeat" style="background-image:url('./svgs/bg-infancia.svg')">
                     <div class="flex flex-row items-center">
                         <div class="hidden lg:block pl-[10vw] prev"><img src="./svgs/chevron-double-left.svg" alt=""></div>
-                        <div class="swiper aspect-infanciaSlider w-full lg:w-[60vw]">
+                        <div class="swiper swiperInfancia aspect-infanciaSlider w-full lg:w-[60vw]">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide bg-top bg-cover bg-no-repeat" style="background-image:url('./imgs/infancia-1.jpg')"></div>
                                 <div class="swiper-slide bg-top bg-cover bg-no-repeat" style="background-image:url('./imgs/infancia-2.jpg')"></div>
@@ -426,25 +495,6 @@
     <script src="./wc-menu.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous" ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script src="./js/main.js" type="text/javascript"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-      <!-- Initialize Swiper -->
-    <script type="module">
-        
-        var swiper = new Swiper('.swiper', {
-        loop: true,
-        effect: 'fade',
-        fadeEffect: {
-            crossFade: true
-        },
-        pagination: {
-            el: ".swiper-pagination",
-            type: "bullets"
-        },
-        navigation: {
-            nextEl: '.next',
-            prevEl: '.prev',
-        },
-        });
-    </script>
+    <script src="./js/main.js" type="text/javascript"></script>
 </html>
