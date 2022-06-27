@@ -256,16 +256,16 @@
   }
 
   .swiper-pagination-bullet {
-    width: 20px;
-    height: 20px;
+    width: 26px;
+    height: 26px;
     color: #ea368d00;
     opacity: 1;
     background: rgba(234, 54, 142, 0.2);
   }
 
   .swiper-pagination-bullet-active {
-    width: 40px;
-    height: 40px;
+    width: 32px;
+    height: 32px;
     translate: 0 -10px;
     color: #ea368e;
     background: #ea368e;
