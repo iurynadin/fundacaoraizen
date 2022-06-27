@@ -134,7 +134,7 @@
             md:pl-8 md:text-[40px]
             lg:pl-10 lg:text-[56px]
             xl:pl-14 xl:text-[72px]
-            2xl:pl-20  2xl:text-[97px];
+            2xl:pl-20 2xl:text-[87px];
     }
     h1.white {
       @apply text-white;

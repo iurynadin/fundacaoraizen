@@ -44,6 +44,7 @@ module.exports = {
             backgroundImage: {
                 quemsomos: "url('../svgs/bg-quemsomos.svg')",
                 ondeestamos: "url('../svgs/bg-ondeestamos.svg')",
+                mensagens: "url('../svgs/bg-mensagens.svg')",
             },
             boxShadow: {
             },
