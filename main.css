@@ -113,7 +113,7 @@
     @apply md:px-4 lg:px-10 xl:px-20;
   }
 
-  .halfContainer{
+  .halfContainer {
     @apply w-full md:w-[384px] lg:w-[510px] xl:w-[607px]  pl-4 lg:pl-10 xl:pl-20;
   }
 
@@ -125,8 +125,8 @@
     }
 
     span.white {
-        @apply text-white;
-      }
+      @apply text-white;
+    }
 
     h1 {
       @apply text-roxo leading-none
@@ -134,10 +134,10 @@
             md:pl-8 md:text-[40px]
             lg:pl-10 lg:text-[56px]
             xl:pl-14 xl:text-[72px]
-            2xl:pl-20  2xl:text-[97px];
+            2xl:pl-20 2xl:text-[87px];
     }
-    h1.white{
-        @apply text-white;
+    h1.white {
+      @apply text-white;
     }
   }
 
@@ -207,7 +207,7 @@
   }
 
   .fillquad1 {
-    @apply absolute bg-laranja bottom-0 w-full h-0 left-0 block z-[0] transition-all duration-300 ;
+    @apply absolute bg-laranja bottom-0 w-full h-0 left-0 block z-[0] transition-all duration-300;
   }
   .fillquad2 {
     @apply absolute bottom-0 w-full h-0 bg-amarelo block z-[1] left-0 transition-all duration-300;
@@ -215,12 +215,12 @@
   .fillquad4 {
     @apply absolute bottom-0 left-0 w-0 bg-roxo h-full z-[1] transition-all duration-300;
   }
-  .borderquad4{
+  .borderquad4 {
     @apply absolute w-[22px] bg-roxo -left-[22px] z-[2]
     bottom-10 h-[120px] 
     lg:h-[160px] 
     xl:h-[200px] 
-    2xl:h-[300px];
+    2xl:h-[250px];
   }
 
   .em2021 {
@@ -229,12 +229,20 @@
     }
 
     .small {
-        @apply text-base lg:text-[22px] xl:text-[24px] 2xl:text-[40px] leading-[0.98em] duration-300 transition-all;
-      }
+      @apply text-base lg:text-[22px] xl:text-[24px] 2xl:text-[30px] leading-[0.98em] duration-300 transition-all;
+    }
   }
 
   .em2021Title {
     @apply text-[80px] lg:text-[110px] xl:text-[150px] 2xl:text-[200px] leading-[0.98em] duration-300 transition-all;
+  }
+
+  .modalVideo {
+    @apply fixed top-0 left-0 w-full h-full flex justify-center items-center z-50 bg-roxo/90 translate-y-secondaryout transition-all duration-500;
+  }
+
+  .modalVideo.is-active {
+    @apply translate-y-0;
   }
 
   video {
