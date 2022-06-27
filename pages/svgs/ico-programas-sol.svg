@@ -1,0 +1,19 @@
+<svg id="Group_191" data-name="Group 191" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_183" data-name="Rectangle 183" width="120" height="120" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_190" data-name="Group 190" clip-path="url(#clip-path)">
+    <path id="Path_344" data-name="Path 344" d="M268.117,224.221v-9.378a6.147,6.147,0,0,0,0-12.294v-9.378a15.525,15.525,0,1,1,0,31.05" transform="translate(-206.702 -148.923)" fill="#ec308e"/>
+    <path id="Path_345" data-name="Path 345" d="M193.6,208.342a22.14,22.14,0,0,1,0-44.28v11.722a10.417,10.417,0,0,0,0,20.835Z" transform="translate(-132.188 -126.482)" fill="#fdb515"/>
+    <rect id="Rectangle_175" data-name="Rectangle 175" width="11.446" height="28.426" transform="translate(54.277 0)" fill="#781e77"/>
+    <rect id="Rectangle_176" data-name="Rectangle 176" width="11.446" height="28.426" transform="translate(54.277 91.574)" fill="#781e77"/>
+    <rect id="Rectangle_177" data-name="Rectangle 177" width="11.446" height="28.426" transform="translate(13.527 21.62) rotate(-45)" fill="#781e77"/>
+    <rect id="Rectangle_178" data-name="Rectangle 178" width="11.446" height="28.426" transform="translate(78.28 86.373) rotate(-45)" fill="#781e77"/>
+    <rect id="Rectangle_179" data-name="Rectangle 179" width="28.426" height="11.446" transform="translate(0 54.277)" fill="#781e77"/>
+    <rect id="Rectangle_180" data-name="Rectangle 180" width="28.426" height="11.446" transform="translate(91.574 54.277)" fill="#781e77"/>
+    <rect id="Rectangle_181" data-name="Rectangle 181" width="28.426" height="11.446" transform="translate(13.527 98.38) rotate(-45)" fill="#781e77"/>
+    <rect id="Rectangle_182" data-name="Rectangle 182" width="28.426" height="11.446" transform="translate(78.28 33.627) rotate(-45)" fill="#781e77"/>
+  </g>
+</svg>
