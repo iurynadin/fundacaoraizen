@@ -31,8 +31,12 @@
         event.preventDefault();
         var url = $(this).attr("href");
         goto(url)
-    }
-);
+    });
+
+    $("#showVideoModal, .closeModal").on( "click", function (event) {
+        event.preventDefault();
+        $(".modalVideo").toggleClass("is-active");
+    });
 
     $(".hero").hover(
         function(){
