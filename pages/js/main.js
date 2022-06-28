@@ -91,6 +91,22 @@
             prevEl: '.prevMsg',
         },
     });
+
+    var swiperJuventude = new Swiper('.swiperJuventude', {
+        loop: true,
+        effect: 'fade',
+        fadeEffect: {
+            crossFade: true
+        },
+        pagination: {
+            el: ".swiper-pagination3",
+            type: "bullets"
+        },
+        navigation: {
+            nextEl: '.nextJuv',
+            prevEl: '.prevJuv',
+        },
+    });
     
 })(jQuery);
 

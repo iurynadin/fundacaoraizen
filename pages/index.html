@@ -388,23 +388,23 @@
             
 
             <!-- Programas -->
-            <section class="z-0 relative h-screen" id="programas">
-                <div class="z-1 absolute top-0 left-0 bg-amarelo w-full h-full"></div>
+            <section class="z-0 relative lg:h-screen" id="programas">
+                <div class="z-1 absolute top-0 left-0 bg-amarelo w-full h-[50%] lg:h-full"></div>
                 <div class="z-1 absolute bottom-0 left-0 bg-white w-full h-[20%] min-h-[290px] max-h-min"></div>
                 <div class="z-2 absolute top-0 left-0 bg-cyan w-[70%] h-[30px]"></div>
                 <div class="z-2 absolute top-0 right-0 bg-rosa w-[30%] h-[15px]"></div>  
 
-                <div class="z-3 relative container ctXPad h-full">
+                <div class="z-3 relative container ctXPad h-full" id="ativainfancia">
                     <div class="group grid grid-cols-1 lg:grid-cols-2 lg:gap-20 h-full content-end ">
                         <img class="w-10 lg:w-44 absolute top-10 lg:top-24 right-5 lg:right-20 group-hover:-translate-x-5 transition-all duration-1000" src="./svgs/nuvens.svg" alt="">
-                        <div class="">
+                        <div class="mt-10 lg:mt-0">
                             <div class="sectionTitle">
                                 <span>5.</span>
                                 <h1>Programas</h1>
                             </div>
                             <img class="mx-auto pt-10 mt-5 w-[150px] lg:w-[31vw] group-hover:-translate-y-5 transition-all duration-1000 ease-out" src="./svgs/foguete.svg" alt="">
                         </div>
-                        <div class="flex flex-col justify-end items-start">
+                        <div class="flex flex-col justify-end items-start mt-10 lg:mt-0">
                             <span class="text-lg md:text-xl lg:text-[22px] 2xl:text-[30px] font-semibold text-roxo leading-none">5.1</span><br />
                             <img class="lg:w-[440px]" src="./svgs/logo-ativa.svg" alt="">
                             <span class="mt-12 md:text-[20px] lg:text-[28px] xl:text-[32px] 2xl:text-[40px] font-worksans text-[18px] text-roxo leading-tight">Programa voltado ao desenvolvimento pleno da primeira infância, com ensino regular integral e atividades complementares.</span>
@@ -412,21 +412,21 @@
                     </div>
                 </div>
             </section>
-            <section class="relative bg-top pt-5 pb-16 lg:py-16 h-fit w-full bg-no-repeat" style="background-image:url('./svgs/bg-infancia.svg')">
+            <section class="relative bg-top pt-5 pb-16 lg:py-16 h-fit w-full bg-no-repeat mt-10 lg:mt-0" style="background-image:url('./svgs/bg-infancia.svg')">
                     <div class="flex flex-row items-center">
                         <div class="hidden lg:block pl-[10vw] prev"><img src="./svgs/chevron-double-left.svg" alt=""></div>
                         <div class="swiper swiperInfancia aspect-infanciaSlider w-full lg:w-[60vw]">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide bg-top bg-cover bg-no-repeat" style="background-image:url('./imgs/infancia-1.jpg')"></div>
                                 <div class="swiper-slide bg-top bg-cover bg-no-repeat" style="background-image:url('./imgs/infancia-2.jpg')"></div>
-                                <div class="swiper-slide bg-top bg-contain bg-no-repeat" style="background-image:url('./imgs/infancia-3.jpg')"></div>
+                                <div class="swiper-slide bg-top bg-contain bg-no-repeat" style="background-image:url('./imgs/infancia-3.jpg')"></div> 
                             </div>  
                         </div>
-                        <div class="hidden lg:block pr-[10vw] next"><img src="./svgs/chevron-double-right.svg" alt=""></div>                    
+                        <div class="hidden lg:block pr-[10vw] next"><img src="./svgs/chevron-double-right.svg" alt=""></div>
                     </div>
-                <div class="swiper-pagination"></div>                                        
+                    <div class="swiper-pagination"></div>
             </section>
-            <section class="py-20">
+            <section class="py-10 lg:py-20">
                 <div class="container">
                     <div class="flex flex-row flex-wrap justify-between font-worksans text-[16px] lg:text-[25px] text-roxo">
                         <div class="flex flex-col items-center space-y-5 w-full lg:w-[30%]">
@@ -444,71 +444,71 @@
                     </div>
                 </div>
             </section>
-            <section class="relative py-20 overflow-hidden">
-                <div class="-w-full py-24">
-                    <div class="flex flex-row items-center h-[60vh]">
-                        <div class="w-[50%] h-full">
+            <section class="relative py-10 lg:py-20 overflow-hidden">
+                <div class="-w-full lg:py-24">
+                    <div class="flex flex-row flex-wrap items-center lg:h-[60vh]">
+                        <div class="w-full lg:w-[50%] h-full">
                             <img class="w-full h-full object-left-top object-cover" src="./imgs/infancia-4.jpg" alt="">
                         </div>
-                        <div class="w-[50%] h-full bg-cyan flex flex-col items-start justify-center font-worksans text-[18px] md:text-[20px] lg:text-[18px] xl:text-[20px] 2xl:text-[25px] text-roxo">
-                            <div class="flex mr-10 flex-row space-x-10 items-center ">
-                                <img class="w-[50px] lg:w-[90px] xl:w-[110px] 2xl:w-[132px] ml-12 2xl:mr-8" src="./svgs/ico-programas-check.svg" alt="">
-                                <div class="">Sempre com foco na excelência, aplicamos uma metodologia de autoavaliação escolar em sete pilares e que envolveu diferentes stakeholders.</div>
+                        <div class="w-full lg:w-[50%] h-full pb-10 lg:pb-0 bg-cyan flex flex-col items-start justify-center font-worksans text-[18px] md:text-[20px] lg:text-[18px] xl:text-[20px] 2xl:text-[25px] text-roxo">
+                            <div class="flex mt-10 lg:mt-0 lg:mr-10 flex-row flex-wrap lg:space-x-10 justify-center lg:justify-start items-center ">
+                                <img class="mt-10 lg:mt-0 w-[50px] lg:w-[90px] xl:w-[110px] 2xl:w-[132px] lg:ml-12 2xl:mr-10" src="./svgs/ico-programas-check.svg" alt="">
+                                <div class="mx-5 mt-10 lg:mt-0 lg:w-[65%]">Sempre com foco na excelência, aplicamos uma metodologia de autoavaliação escolar em sete pilares e que envolveu diferentes stakeholders.</div>
                             </div>
-                            <div class="flex mr-10 flex-row space-x-10 items-center  mt-20">
-                                <img class="w-[50px] lg:w-[90px] xl:w-[110px] 2xl:w-[132px] ml-12 2xl:mr-12" src="./svgs/ico-programas-sol.svg" alt="">
-                                <div class="mr-10">Caminhamos em linha com a ambição de ser referência em Educação Infantil. Nesse sentido, já compartilhamos nossa metodologia por meio de workshops com as secretarias municipais de educação de Morro Agudo, Brotas, Barra Bonita e Jaú.</div>
+                            <div class="flex lg:mr-10 mt-10 lg:mt-20 flex-row flex-wrap lg:space-x-10 justify-center lg:justify-start items-center">
+                                <img class="mt-10 lg:mt-0 w-[50px] lg:w-[90px] xl:w-[110px] 2xl:w-[132px] lg:ml-12 2xl:mr-12" src="./svgs/ico-programas-sol.svg" alt="">
+                                <div class="mx-5 lg:mr-10 mt-10 lg-mt-0 lg:w-[65%]">Caminhamos em linha com a ambição de ser referência em Educação Infantil. Nesse sentido, já compartilhamos nossa metodologia por meio de workshops com as secretarias municipais de educação de Morro Agudo, Brotas, Barra Bonita e Jaú.</div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <img class="absolute top-5 left-0" src="./svgs/Path 488.svg" alt="">
-                <div class="absolute top-[180px] left-28 h-[57%] 2xl:h-[32vw] w-[30px] bg-laranja"></div>
-                <img class="absolute bottom-20 left-24" src="./svgs/Path 484.svg" alt="">
-                <div class="absolute bottom-24 left-[255px] h-[20px] w-[85%] bg-amarelo"></div>
+                <img class="hidden lg:block absolute top-5 left-0" src="./svgs/Path 488.svg" alt="">
+                <div class="hidden lg:block absolute top-[180px] left-28 h-[57%] 2xl:h-[32vw] w-[30px] bg-laranja"></div>
+                <img class="hidden lg:block absolute bottom-20 left-24" src="./svgs/Path 484.svg" alt="">
+                <div class="hidden lg:block absolute bottom-24 left-[255px] h-[20px] w-[85%] bg-amarelo"></div>
             </section>
 
-            <section class="">
-                <div class="z-0 mt-52 relative bg-laranja h-[800px] w-full">
+            <section class="" id="ativajuventude">
+                <div class="z-0 lg:mt-52 relative bg-laranja lg:h-[800px] w-full">
                     <div class="z-1 absolute top-0 left-0 bg-amarelo w-[30%] h-[15px]"></div>
                     <div class="z-2 absolute top-0 right-0 bg-roxo w-[70%] h-[30px]"></div>
                     <div class="container ctXPad h-full">
                         <div class="h-full flex flex-col justify-between items-start">
                             <img class="mt-20 ml-5" src="./svgs/ico-juventude-seta.svg" alt="">
-                            <div class="mb-20">
+                            <div class="mb-10 lg:mb-20 mt-10 lg:mt-0 ">
                                 <span class="font-worksans text-roxo text-[30px] font-semibold">5.2</span>
                                 <img class="mt-10" src="./svgs/logo-ativa-juventude.svg" alt="">
                             </div>
                         </div>
-                        <img class="absolute -bottom-36 right-36" src="./svgs/celular.svg" alt="">
+                        <img class="hidden lg:block absolute -bottom-36 right-36" src="./svgs/celular.svg" alt="">
                     </div>    
                 </div>
             </section>
             <section class="z-0 relative">
                 <div class="relative container ctXPad">
-                    <div class="font-worksans text-roxo text-[22px] lg:text-[26px] xl:text-[32px] 2xl:text-[40px] w-full lg:w-[400px] xl:w-[570px] mt-20 mb-40">
+                    <div class="font-worksans text-roxo text-[22px] lg:text-[26px] xl:text-[32px] 2xl:text-[40px] w-full lg:w-[400px] xl:w-[570px] mt-20 lg:mb-40">
                         Impulsionamos jovens a descobrirem suas vocações e caminhos profissionais, estimulando a permanência na escola e a aprendizagem ao longo da vida.
                     </div>                    
                     <div class="grid grid-cols-1 lg:grid-cols-2 w-full">
                         <div class="">             
                             <img class="" src="./svgs/laptop.svg" alt="">                            
-                            <div class="font-worksans text-roxo text-[18px] lg:text-[20px] xl:text-[26px] 2xl:text-[30px] my-10 mr-10">
+                            <div class="font-worksans text-roxo text-[18px] lg:text-[20px] xl:text-[26px] 2xl:text-[30px] my-10 lg:mr-10">
                                 Com os aprendizados durante a pandemia de Covid-19, os Núcleos físicos passaram a ofertar também o programa na modalidade híbrida, a qual é replicada para fora de nossos espaços próprios por meio de parcerias estratégicas em escolas da rede pública.
                             </div>
                         </div>
                         <div></div>
                     </div>
 
-                    <div class="bg-laranja w-[30px] h-[105%] absolute -top-20 lg:-left-5 xl:-left-10"></div>
-                    <img class="absolute -bottom-20 lg:-left-9 xl:-left-14" src="./svgs/Path 490.svg" alt="">
-                    <div class="absolute -bottom-[70px] lg:left-[100px] xl:left-20 h-[40px] lg:w-[53%] xl:w-[62%] 2xl:w-[70%] bg-cyan"></div>
-                    <img class="z-[2] absolute -bottom-16 right-[260px]" src="./svgs/Path 489.svg" alt="">
-                    <div class="z-[2] absolute -bottom-[30%] 2xl:-bottom-[25%] right-14 bg-laranja w-[30px] h-[400px]"></div>
-                    <img class="z-[2] absolute bottom-14 right-10" src="./svgs/Path 135.svg" alt="">                    
+                    <div class="hidden lg:block bg-laranja w-[30px] h-[105%] absolute -top-20 lg:-left-5 xl:-left-10"></div>
+                    <img class="hidden lg:block absolute -bottom-20 lg:-left-9 xl:-left-14" src="./svgs/Path 490.svg" alt="">
+                    <div class="hidden lg:block absolute -bottom-[70px] lg:left-[100px] xl:left-20 h-[40px] lg:w-[53%] xl:w-[62%] 2xl:w-[70%] bg-cyan"></div>
+                    <img class="hidden lg:block z-[2] absolute -bottom-16 right-[260px]" src="./svgs/Path 489.svg" alt="">
+                    <div class="hidden lg:block z-[2] absolute -bottom-[30%] 2xl:-bottom-[25%] right-14 bg-laranja w-[30px] h-[400px]"></div>
+                    <img class="hidden lg:block z-[2] absolute bottom-14 right-10" src="./svgs/Path 135.svg" alt="">                    
                     
                 </div>
-                <div class="absolute bottom-0 left-[50vw] w-[48vw] max-w-[940px]"><img class="" src="./imgs/juventude-1.jpg" alt=""></div>
-                <div class="z-[-1] bg-amarelo absolute bottom-0 left-0 w-[50vw] h-[350px] xl:h-[470px]"></div>
+                <div class="hidden lg:block absolute bottom-0 left-[50vw] w-[48vw] max-w-[940px]"><img class="" src="./imgs/juventude-1.jpg" alt=""></div>
+                <div class="z-[-1] bg-amarelo absolute bottom-0 left-0 w-full lg:w-[50vw] h-[350px] xl:h-[470px]"></div>
 
             </section>
             <section class="relative pt-[50px] pb-[100px] bg-roxo lg:mt-[200px] font-worksans text-center text-white text-[18px] md:text-[20px] lg:text-[18px] xl:text-[20px] 2xl:text-[25px]">
@@ -520,13 +520,13 @@
                                 Em 2021, além dos nossos seis Núcleos que conduzem a iniciativa, foram alcançadas mais 18 localidades, sendo nove novos territórios onde a Raízen opera, e formados 1.459 jovens de 79 escolas públicas do Brasil.
                             </div>
                         </div>
-                        <div class="flex flex-col items-center gap-10 w-full lg:w-[30%]">
+                        <div class="flex flex-col items-center gap-10 w-full mt-10 lg:mt-0 lg:w-[30%]">
                             <img class="w-14 lg:w-16" src="./svgs/ico-pessoa.svg" alt="">
                             <div class="mx-10">
                                 Reforçamos, com isso, a vocação do Ativa Juventude como um programa escalável, com resultados mensuráveis e impacto social positivo, que, com o apoio de parceiros e uma rede de negócios comprometida com o futuro, pode se tornar realidade para cada vez mais pessoas.
                             </div>
                         </div>
-                        <div class="flex flex-col items-center gap-10 w-full lg:w-[30%] lg:mt-10">
+                        <div class="flex flex-col items-center gap-10 w-full lg:w-[30%] mt-10">
                             <img class="w-14 lg:w-16" src="./svgs/ico-seta-baixo.svg" alt="">
                             <div class="">
                                 A nossa expectativa é que  mais de 2 mil jovens concluam o programa em 2022 e 20 novos municípios sejam beneficiados. Seguimos, assim, com o objetivo de transformar ao menos 10 mil vidas até 2024
@@ -534,7 +534,75 @@
                         </div>
                     </div>
                 </div>
-                
+            </section>
+            <section class="lg:h-screen lg:py-20">
+                <div class="relative container h-full">
+                    <div class="lg:hidden mt-20">
+                        <img src="./imgs/juventude-2.jpg" alt="">
+                        <div class="relative w-[full] h-5 bg-laranja">
+                            <div class="absolute -ml-4 top-0  w-[55%] h-7 bg-roxo"></div>
+                        </div>
+                    </div> 
+                <div class="hidden lg:block absolute top-[20%] left-[0] bg-amarelo h-[30px] w-[20%]"></div>
+                <div class="hidden lg:block absolute top-[35%] left-[30.5%] bg-cyan h-[60%] w-[30px]"></div>
+                <div class="hidden lg:block absolute -bottom-[4%] left-[35%] bg-amarelo h-[30px] w-[60%]"></div>
+                <div class="hidden lg:block absolute bottom-[7%] -right-[4%] bg-rosa h-[100%] w-[30px]"></div>
+                <img class="hidden lg:block absolute top-[18%] left-[20%]" src="./svgs/Path 494.svg" alt="">
+                <img class="hidden lg:block absolute -bottom-[5%] left-[30%]" src="./svgs/Path 493.svg" alt="">
+                <img class="hidden lg:block absolute -bottom-[5%] -right-[5%]" src="./svgs/Path 491.svg" alt="">
+                <div class="swiper swiperJuventude  lg:-ml-20 h-full">
+                    <div class="swiper-wrapper h-full">
+                        <div class="swiper-slide h-full">
+                            <div class="flex flex-row h-full justify-between">
+                                <div class="hidden lg:flex flex-col justify-end items-center h-full w-1/3">
+                                    <img class="h-[60%] mb-[10%]" src="./svgs/coracao.svg" alt="">
+                                </div>
+                                <div class="flex flex-col justify-around items-center h-full w-full lg:w-[60%]">
+                                    <img class="mt-20 w-20 lg:w-56" src="./svgs/abre-aspas.svg" alt="">
+                                    <div class="mt-10 font-worksans text-roxo text-[17px] lg:text-[25px] leading-tight lg:mx-20">
+                                        Fiquei sabendo sobre o Ativa Juventude quando eu cursava o 9º ano do Ensino Fundamental no Centro de Estudos e Aperfeiçoamento do Saber (CEAS) e, desde o início, fiquei bastante curiosa com o nome do programa e como ele poderia me ajudar a planejar o meu futuro. Participei das atividades na modalidade híbrida, com parte das atividades sendo realizadas remotamente, e achei muito interessante que, apesar de estarmos longe, eu me sentia muito perto das outras pessoas. Foi sem dúvida uma experiência divertida e inesquecível! Levarei para sempre comigo o aprendizado de que não podemos desistir dos nossos sonhos e dos nossos objetivos.
+                                    </div>
+                                    <div class="mt-10 font-worksans text-laranja text-[18px] lg:text-[30px] leading-tight self-start lg:mx-20">
+                                        Sabrina Santos Nascimento de Lima<br />
+                                        <span class="text-[14px] lg:text-[25px] font-semibold">aluna de São Francisco do Conde – BA</span>
+                                    </div>
+                                    <img class="mt-10 nextJuv" src="./svgs/chevron-double-right-roxo.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide h-full">
+                            <div class="flex flex-row flex-wrap h-full">
+                                <div class="flex flex-col justify-start items-start w-full lg:w-[70%]">
+                                    <img class="z-[1] lg:ml-44 mt-14 w-20 lg:w-56" src="./svgs/abre-aspas.svg" alt="">
+                                    <div class="z-[0] -mt-7 lg:-mt-16 py-20 w-full bg-cyan">
+                                        <div class="lg:mt-10 mx-5 lg:mx-32 font-worksans text-roxo text-[17px] lg:text-[25px]">
+                                            O Ativa Juventude foi apresentado pela diretora da minha escola, na época em que eu estava retornando para as aulas presenciais. Conforme fui conhecendo o modelo do programa, minhas expectativas foram elevadas. Mesmo nas atividades remotas, a educadora foi muito atenciosa com toda a minha turma, o que fez com que eu me sentisse acolhido por ela. Com essa experiência, aprendi que, no futuro, eu preciso ter foco. Antes do programa eu não tinha muito apego ao estudo e hoje vejo que preciso estudar para realizar o meu sonho de ser médico – cardiologista ou neurologista.” 
+                                            <br />
+                                            <br />
+                                            <span class="text-[18px] lg:text-[30px]">Carlos Matheus Guimarães</span><br />
+                                            <span class="text-[14px] lg:text-[25px] font-semibold">aluno de Santarém – PA</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="z-[2] lg:mt-20 lg:-ml-20 w-full lg:w-fit flex flex-col justify-between items-center lg:items-start">
+                                    <div class="hidden lg:block">
+                                        <img src="./imgs/juventude-2.jpg" alt="">
+                                        <div class="relative w-[full] h-5 bg-laranja">
+                                            <div class="absolute -ml-4 top-0  w-[55%] h-7 bg-roxo"></div>
+                                        </div>
+                                    </div>    
+                                    <img class="my-10 lg:my-0 prevJuv" src="./svgs/chevron-double-left-roxo.svg" alt="">
+                                </div>
+                                
+                            </div>
+                        </div>
+                           
+                    </div>
+                     
+                </div>    
+                   
+                </div>
             </section>
 
             <!-- Leia Mais -->
