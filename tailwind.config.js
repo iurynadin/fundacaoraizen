@@ -33,6 +33,7 @@ module.exports = {
             },
             width: {
                 shape90: "calc(100% - 20px)",
+                canoamarelo: "calc(100% - 220px)"
             },
             boxShadow: {
             },
