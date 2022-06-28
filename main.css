@@ -246,7 +246,7 @@
   }
 
   .em2021Title {
-    @apply text-[80px] lg:text-[110px] xl:text-[150px] 2xl:text-[200px] leading-[0.98em] duration-300 transition-all;
+    @apply text-[80px] lg:text-[110px] xl:text-[150px] 2xl:text-[170px] leading-[0.98em] duration-300 transition-all;
   }
 
   .modalVideo {
