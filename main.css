@@ -110,7 +110,7 @@
   }
 
   .ball {
-    @apply absolute bg-roxo w-[100px] h-[100px] hidden md:block rounded-full z-[2] opacity-100 duration-150 transition-all right-[50%] lg:top-10 translate-x-[430px] lg:translate-x-[564px] xl:translate-x-[658px];
+    @apply absolute bg-roxo w-[100px] h-[100px] hidden md:block rounded-full z-[2] opacity-100 duration-150 transition-all right-[50%] lg:top-10 translate-x-[430px] lg:translate-x-[564px] xl:translate-x-[658px] 2xl:translate-x-[808px];
   }
 
   .ball.fadeout {
