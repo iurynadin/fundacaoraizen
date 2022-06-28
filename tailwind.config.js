@@ -40,13 +40,18 @@ module.exports = {
                 quesomosVideo: "13 / 7",
                 infanciaSlider: "9/6",
                 juventudeFoto: "1.33",
-                mensagem: "3 / 2"
+                mensagem: "3 / 2",
+                embedvideo: "16 / 9",
 
             },
             backgroundImage: {
                 quemsomos: "url('../svgs/bg-quemsomos.svg')",
                 ondeestamos: "url('../svgs/bg-ondeestamos.svg')",
                 mensagens: "url('../svgs/bg-mensagens.svg')",
+                videocover: "url('../video/videocover.jpg')",
+                canosativa: "url('../svgs/canos-ativa.svg')",
+                canosxl: "url('../svgs/canosxl.svg')",
+                canos2xl: "url('../svgs/canos2xl.svg')",
             },
             boxShadow: {
             },

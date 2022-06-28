@@ -49,7 +49,7 @@
   }
 
   .navbar-burger {
-    @apply fixed top-5 -right-28 md:top-10 md:-right-28  bg-rosa rounded-full z-50 transition-all duration-300 block
+    @apply fixed top-5 -right-28 md:top-10 md:-right-28  bg-rosa rounded-full z-50 transition-all duration-300
         w-[70px] h-[70px]
         md:w-[90px] md:h-[90px];
   }
@@ -76,6 +76,14 @@
   }
   .navbar-burger.is-active span:nth-child(2) {
     @apply -translate-y-3 md:-translate-y-4 -rotate-45 bg-amarelo;
+  }
+
+  .logoFixed {
+    @apply w-20 md:w-[100px] fixed top-5 -left-32 md:top-10 md:-left-32 z-10 transition-all duration-300;
+  }
+
+  .logoFixed.is-spying {
+    @apply left-5 md:left-10;
   }
 
   .heroNav {
@@ -242,20 +250,17 @@
   }
 
   .modalVideo {
-    @apply fixed top-0 left-0 w-full h-full flex justify-center items-center z-50 bg-roxo/90 translate-y-secondaryout transition-all duration-500;
+    @apply fixed top-0 left-0 w-full h-full flex justify-center items-center z-50 bg-roxo/90  transition-all duration-500 translate-y-secondaryout;
   }
 
   .modalVideo.is-active {
     @apply translate-y-0;
   }
 
-  video {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
+  .wrapperVideo {
+    video {
+      @apply w-full block;
+    }
   }
 
   .full-width {
@@ -268,7 +273,6 @@
   }
 
   .swiper-pagination3 {
-    
   }
 
   .swiper-pagination-bullet {
