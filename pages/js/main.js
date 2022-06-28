@@ -67,7 +67,8 @@
             crossFade: true
         },
         pagination: {
-            el: ".swiper-pagination",
+            el: '.swiper-pagination',
+            clickable: true,
             type: "bullets"
         },
         navigation: {
@@ -99,8 +100,8 @@
             crossFade: true
         },
         pagination: {
-            el: ".swiper-pagination3",
-            type: "bullets"
+            el: '.swiper-pagination3',
+            type: 'bullets'
         },
         navigation: {
             nextEl: '.nextJuv',
