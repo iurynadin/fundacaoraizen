@@ -49,6 +49,9 @@ module.exports = {
                 ondeestamos: "url('../svgs/bg-ondeestamos.svg')",
                 mensagens: "url('../svgs/bg-mensagens.svg')",
                 videocover: "url('../video/videocover.jpg')",
+                canosativa: "url('../svgs/canos-ativa.svg')",
+                canosxl: "url('../svgs/canosxl.svg')",
+                canos2xl: "url('../svgs/canos2xl.svg')",
             },
             boxShadow: {
             },
