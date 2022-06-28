@@ -118,7 +118,21 @@
     
 })(jQuery);
 
+function fixedMenu() {
+    window.addEventListener("scroll", function (e) {
+        var distanceY =
+                window.pageYOffset ||
+                document.documentElement.scrollTop,
+            logoAppearance = 500;
 
+        if (distanceY > logoAppearance) { /* exibe */
+            $(".logoFixed").addClass("is-spying");
+        } else {
+            $(".logoFixed").removeClass("is-spying");
+        }
+    });
+}
+window.onload = fixedMenu();
 
 function hambMenu() {
     if (window.innerWidth >= 768) {
@@ -148,6 +162,7 @@ window.onload = hambMenu();
 
 window.addEventListener('resize', function(event) {
     hambMenu();
+    fixedMenu();
     console.log('resize')
 }, true);
     

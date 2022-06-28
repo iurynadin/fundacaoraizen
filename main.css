@@ -78,6 +78,14 @@
     @apply -translate-y-3 md:-translate-y-4 -rotate-45 bg-amarelo;
   }
 
+  .logoFixed {
+    @apply w-20 md:w-[100px] fixed top-5 -left-32 md:top-10 md:-left-32 z-10 transition-all duration-300;
+  }
+
+  .logoFixed.is-spying {
+    @apply left-5 md:left-10;
+  }
+
   .heroNav {
     @apply absolute top-0 right-4 lg:right-0 hidden md:flex flex-col items-end justify-start z-[3];
     li {
