@@ -27,9 +27,10 @@
         }
     );
 
-    $(".heroNav li a").on( "click", function (event) {
+    $(".heroNav li a, .backToTop").on( "click", function (event) {
         event.preventDefault();
         var url = $(this).attr("href");
+        console.log('url')
         goto(url)
     });
 
