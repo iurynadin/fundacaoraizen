@@ -1600,6 +1600,18 @@ strong {
 .right-\[20vw\] {
   right: 20vw;
 }
+.-bottom-24 {
+  bottom: -6rem;
+}
+.-top-5 {
+  top: -1.25rem;
+}
+.top-\[0\] {
+  top: 0;
+}
+.-top-24 {
+  top: -6rem;
+}
 .z-\[5\] {
   z-index: 5;
 }
@@ -1999,6 +2011,9 @@ strong {
 .place-self-end {
   place-self: end;
 }
+.place-self-center {
+  place-self: center;
+}
 .self-start {
   align-self: flex-start;
 }
@@ -2010,6 +2025,9 @@ strong {
 }
 .border-2 {
   border-width: 2px;
+}
+.border {
+  border-width: 1px;
 }
 .border-r-\[10px\] {
   border-right-width: 10px;
@@ -2024,6 +2042,10 @@ strong {
 .border-laranja {
   --tw-border-opacity: 1;
   border-color: rgb(245 121 32 / var(--tw-border-opacity));
+}
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 .bg-laranja {
   --tw-bg-opacity: 1;
@@ -2153,6 +2175,10 @@ strong {
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 .pt-8 {
   padding-top: 2rem;
@@ -2697,6 +2723,11 @@ strong {
     margin-right: 8rem;
   }
 
+  .lg\:mx-5 {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+  }
+
   .lg\:mt-24 {
     margin-top: 6rem;
   }
@@ -2935,6 +2966,10 @@ strong {
     width: 5rem;
   }
 
+  .lg\:w-\[70px\] {
+    width: 70px;
+  }
+
   .lg\:-translate-x-7 {
     --tw-translate-x: -1.75rem;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -3008,6 +3043,11 @@ strong {
   .lg\:py-24 {
     padding-top: 6rem;
     padding-bottom: 6rem;
+  }
+
+  .lg\:py-14 {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
   }
 
   .lg\:pt-20 {
@@ -3219,6 +3259,10 @@ strong {
     width: 14rem;
   }
 
+  .xl\:w-\[90px\] {
+    width: 90px;
+  }
+
   .xl\:translate-x-0 {
     --tw-translate-x: 0px;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -3390,6 +3434,10 @@ strong {
     height: 60%;
   }
 
+  .\32xl\:h-\[100\%\] {
+    height: 100%;
+  }
+
   .\32xl\:w-\[74\%\] {
     width: 74%;
   }
@@ -3436,6 +3484,10 @@ strong {
 
   .\32xl\:w-\[70\%\] {
     width: 70%;
+  }
+
+  .\32xl\:w-\[110px\] {
+    width: 110px;
   }
 
   .\32xl\:bg-canos2xl {
