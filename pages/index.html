@@ -140,10 +140,8 @@
                     </div>
 
                     <div class="mx-auto w-full sm:w-[88%] mt-10 md:mt-20 2xl:w-[74%]">
-                        <div class="bg-slate-400 aspect-quesomosVideo rounded-3xl lg:rounded-[50px] flex justify-center items-center">
-                            <img src="./svgs/play.svg" id="showVideoModal" class="w-20 cursor-pointer" alt="">
-
-                            
+                        <div class="bg-slate-400 aspect-quesomosVideo rounded-3xl lg:rounded-[50px] flex justify-center items-center bg-videocover bg-center bg-cover bg-no-repeat">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-20 cursor-pointer fill-white hover:fill-laranja/60 transition-all duration-300" id="showVideoModal" viewBox="0 0 102.988 102.988"><path d="M53.494,94.689a41.2,41.2,0,1,1,41.2-41.2,41.25,41.25,0,0,1-41.2,41.2M53.494,2a51.494,51.494,0,1,0,51.494,51.494A51.494,51.494,0,0,0,53.494,2M43.2,76.666l30.9-23.172L43.2,30.322Z" transform="translate(-2 -2)"/></svg>
                         </div>
                     </div>    
                 </div>
@@ -159,9 +157,14 @@
             </section>
 
             <div class="modalVideo">
-                <div class="flex flex-col items-end closeModal">
+                <div class="flex flex-col items-end justify-start closeModal">
                     <img src="./svgs/close-video.svg" class="w-14 mb-4 cursor-pointer" alt="">
-                    <div class="wrapperVideo xl:w-[1000px] aspect-video bg-white block"></div>
+                    <div class="wrapperVideo relative xl:w-[1000px] block mx-auto">
+                        <video id='raizenVideo' controls="controls" preload='none' poster="./video/videocover.jpg">
+                            <source id='mp4' src="http://media.w3.org/2010/05/sintel/trailer.mp4" type='video/mp4' />
+                            <source id='webm' src="http://media.w3.org/2010/05/sintel/trailer.webm" type='video/webm' />
+                        </video>
+                    </div>
                 </div>
             </div>
 

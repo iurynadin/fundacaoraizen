@@ -33,9 +33,16 @@
         goto(url)
     });
 
-    $("#showVideoModal, .closeModal").on( "click", function (event) {
+    var vid = document.getElementById('raizenVideo');
+    $("#showVideoModal").on( "click", function (event) {
         event.preventDefault();
         $(".modalVideo").toggleClass("is-active");
+        vid.play();
+    });
+    $(".closeModal").on( "click", function (event) {
+        event.preventDefault();
+        $(".modalVideo").toggleClass("is-active");
+        vid.pause();
     });
 
     $(".hero").hover(
@@ -111,27 +118,36 @@
     
 })(jQuery);
 
-function init() {
-    window.addEventListener("scroll", function (e) {
-        var distanceY =
-                window.pageYOffset ||
-                document.documentElement.scrollTop,
-            shrinkOn = 500,
-            hamb = document.querySelector("hamb");
 
-        if (distanceY > shrinkOn) { /* exibe */
-            $(".navbar-burger").addClass("is-spying");
-        } else {
-            $(".navbar-burger").removeClass("is-spying");
-            if($(".secondaryNav").hasClass("is-active")){
-                $(".secondaryNav").removeClass("is-active");
-                $(".navbar-burger").removeClass("is-active");
+
+function hambMenu() {
+    if (window.innerWidth >= 768) {
+        window.addEventListener("scroll", function (e) {
+            var distanceY =
+                    window.pageYOffset ||
+                    document.documentElement.scrollTop,
+                shrinkOn = 500;
+    
+            if (distanceY > shrinkOn) { /* exibe */
+                $(".navbar-burger").addClass("is-spying");
+            } else {
+                $(".navbar-burger").removeClass("is-spying");
+                if($(".secondaryNav").hasClass("is-active")){
+                    $(".secondaryNav").removeClass("is-active");
+                    $(".navbar-burger").removeClass("is-active");
+                }
             }
-        }
-    });
-
+        });
+        console.log('desktop')
+    } else {
+        console.log('navbar-burguer');
+        $(".navbar-burger").addClass("is-spying");
+    }
 }
-window.onload = init();
+window.onload = hambMenu();
 
-  
+window.addEventListener('resize', function(event) {
+    hambMenu();
+    console.log('resize')
+}, true);
     
