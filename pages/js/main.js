@@ -109,12 +109,22 @@
         },
         pagination: {
             el: '.swiper-pagination3',
+            clickable: true,
             type: 'bullets'
         },
         navigation: {
             nextEl: '.nextJuv',
             prevEl: '.prevJuv',
         },
+    });
+
+    $('.nextSlide').on('click', function (event) {
+        event.preventDefault()
+        swiperJuventude.slideNext();
+    });
+    $('.prevSlide').on('click', function (event) {
+        event.preventDefault()
+        swiperJuventude.slideNext();
     });
     
 })(jQuery);
