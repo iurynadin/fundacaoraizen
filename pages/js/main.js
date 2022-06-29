@@ -92,7 +92,7 @@
             crossFade: true
         },
         pagination: {
-            el: ".swiper-pagination2",
+            el: '.swiper-pagination2',
             type: "bullets"
         },
         navigation: {
