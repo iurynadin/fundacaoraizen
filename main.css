@@ -204,6 +204,14 @@
     @apply text-[38px] lg:text-[52px] xl:text-[68px] 2xl:text-[97px];
   }
 
+  .quemSomos{
+    @apply w-full bg-white mt-20 md:mt-40 lg:mt-48 bg-no-repeat bg-none sm:bg-quemsomos pb-10 md:pb-20 bg-[position:center_top_150px] bg-[length:1100px_auto]
+    md:bg-[position:center_top_60px] md:bg-[length:1200px_auto]
+    lg:bg-[length:1550px_auto]
+    xl:bg-[position:center_top_90px] xl:bg-[length:1700px_auto]
+    2xl:bg-[position:center_top_198px] 2xl:bg-[length:1800px_auto];
+  }
+
   .transcolor {
     @apply duration-300 transition-all;
   }
