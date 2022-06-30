@@ -87,7 +87,7 @@
   }
 
   .heroNav {
-    @apply absolute top-0 right-4 lg:right-0 hidden md:flex flex-col items-end justify-start z-[3];
+    @apply relative mt-2;
     li {
       @apply mb-3 lg:mb-4 w-full text-right last-of-type:mt-4;
       a {
@@ -167,8 +167,8 @@
         a {
           @apply leading-tight text-white font-medium hover:text-roxo duration-300 transition-all 
                     text-xl
-                    md:text-[26px]
-                    2xl:text-3xl;
+                    md:text-[22px]
+                    2xl:text-[26px];
         }
       }
       li.small {
@@ -183,11 +183,11 @@
       @apply text-right flex flex-col items-end;
 
       img {
-        @apply w-8 md:w-[50px] mb-2;
+        @apply w-8 md:w-[36px] mb-1;
       }
 
       div {
-        @apply text-white text-lg md:text-[26px] 2xl:text-3xl leading-tight;
+        @apply text-white text-lg md:text-[22px] 2xl:text-[26px] leading-tight;
 
         span {
           @apply font-bold block;

@@ -46,8 +46,10 @@
             <div class="secondaryNav">
                 <nav>
                     <ul class="secondaryNav__menu">
-                        <wc-menu></wc-menu>
+                        <wc-menu-en></wc-menu-en>
                     </ul>
+
+                    <wc-lang></wc-lang>
 
                     <a href="#" class="secondaryNav__btn ">
                         <img src="./svgs/ico-relatorio.svg" alt="ico relatorio">
@@ -61,9 +63,13 @@
             <section class="hero group relative w-full bg-laranja h-[400px] md:h-[540px] lg:h-[600px] xl:h-[710px] 2xl:h-[870px] pt-8 lg:pt-20 over" id="hero">
                 <div class="container relative z-[5] h-full pb-20 flex flex-col justify-between">
                     <img src="./svgs/logo-hero.svg" class="w-[128px]" alt="Logo Fundação Raízen">
-                    <ul class="heroNav">
-                        <wc-menu></wc-menu>
-                    </ul>
+
+                    <div class="absolute lg:-top-8 right-4 lg:right-0 hidden md:flex flex-col items-end justify-start z-[3]">
+                        <wc-lang></wc-lang>
+                        <ul class="heroNav">
+                            <wc-menu-en></wc-menu-en>
+                        </ul>
+                    </div>
                     
                     <div>
                         <div class="text-white heroTitle leading-[0.98em] font-medium">Relatório<br>de atividades</div>
@@ -128,9 +134,9 @@
                     <div class="grid md:grid-cols-2 gap-y-5">
                         <div class="sectionTitle">
                             <span>1.</span>
-                            <h1>Quem<br><strong>Somos</strong></h1>
+                            <h1>About<br><strong>Us</strong></h1>
                         </div>
-                        <p class="text-roxo text-2xl lg:text-3xl xl:text-4xl 2xl:text-[50px] 2xl:leading-tight ">Somos a <strong>Fundação Raízen</strong>, instituição sem fins lucrativos que há 20 anos atua na educação de crianças e jovens em situação de vulnerabilidade social. </p>
+                        <p class="text-roxo text-2xl lg:text-3xl xl:text-4xl 2xl:text-[50px] 2xl:leading-tight ">We’re the <strong>Raízen Foundation</strong>, ia nonprofit organization that for 20 years has supported the education of disadvantaged children and youth.</p>
                     </div>
 
                     <div class="mx-auto w-full sm:w-[88%] mt-10 md:mt-20 2xl:w-[74%]">
@@ -372,7 +378,7 @@
                                     <div class="halfContainerMsg -mt-10 md:mr-10 md:pr-20">
                                         <img src="./svgs/ico-aspas2.svg" class="w-[120px] 2xl:w-[190px] group-hover:translate-y-2 transition-all duration-300 mb-4" alt="">
 
-                                        <p class="text-white text-base lg:text-[22px] xl:text-[28px] 2xl:text-4xl leading-tight">Queremos seguir mudando a perspectiva de crianças e jovens e, para isso, contamos com o apoio de toda a rede de parceiros que vem somando passos a nossa trajetória e pela qual sou grata pelos resultados apresentados nas próximas páginas deste documento.” </p>
+                                        <p class="text-white text-base lg:text-[22px] xl:text-[28px] 2xl:text-4xl leading-tight">We want to continue to create a better future for children and youth, and count on the support of our network of partners on this journey, to whom I am grateful for the results described in this report.” </p>
 
                                     </div>
                                 </div>
@@ -387,7 +393,7 @@
                                         </div>
                                         <p class="text-roxo text-lg lg:text-xl leading-tight pt-6 pl-16">
                                             Paula Carvalho Benevides 
-                                            <span class="font-semibold uppercase block text-base lg:text-lg">Diretora Presidente</span>
+                                            <span class="font-semibold uppercase block text-base lg:text-lg">Chief Executive Officer</span>
                                         </p>
                                     </div>
                                 </div>
@@ -725,6 +731,7 @@
     </body>
     <script src="./wc-meta.js"></script>
     <script src="./wc-menu-en.js"></script>
+    <script src="./wc-lang.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous" ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>

@@ -4,7 +4,7 @@ class MenuElement extends HTMLElement {
     }
     connectedCallback() {
         this.innerHTML = `
-            <li><a href="#quem_somos">1. Quem Somos </a> </li>
+            <li><a href="#quem_somos">1. Quiénes somos</a> </li>
             <li><a href="#destaques">2. Destaques do ano</a> </li>
             <li><a href="#ondeestamos">3. Dónde estamos</a> </li>
             <li><a href="#mensagens">4. Mensajes de los líderes</a> </li>

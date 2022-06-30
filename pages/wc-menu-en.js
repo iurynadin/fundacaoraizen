@@ -1,10 +1,10 @@
-class MenuElement extends HTMLElement {
+class MenuElementEn extends HTMLElement {
     constructor() {
         super(); 
     }
     connectedCallback() {
         this.innerHTML = `
-            <li><a href="#quem_somos">1. Quem Somos </a> </li>
+            <li><a href="#quem_somos">1. About Us</a> </li>
             <li><a href="#destaques">2. Destaques do ano</a> </li>
             <li><a href="#ondeestamos">3. Where are we</a> </li>
             <li><a href="#mensagens">4. Messages from the leadership</a> </li>
@@ -15,4 +15,4 @@ class MenuElement extends HTMLElement {
         `;
     }
 }
-window.customElements.define('wc-menu', MenuElement);  
+window.customElements.define('wc-menu-en', MenuElementEn);  
