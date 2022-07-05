@@ -1731,11 +1731,11 @@ strong {
 .-ml-4 {
   margin-left: -1rem;
 }
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
 .ml-16 {
   margin-left: 4rem;
+}
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 .block {
   display: block;
@@ -1915,14 +1915,17 @@ strong {
 .w-\[86\%\] {
   width: 86%;
 }
-.w-4 {
-  width: 1rem;
+.w-16 {
+  width: 4rem;
 }
 .w-11 {
   width: 2.75rem;
 }
-.w-16 {
-  width: 4rem;
+.w-4 {
+  width: 1rem;
+}
+.w-\[48px\] {
+  width: 48px;
 }
 .max-w-\[940px\] {
   max-width: 940px;
@@ -2034,9 +2037,6 @@ strong {
 }
 .self-start {
   align-self: flex-start;
-}
-.self-center {
-  align-self: center;
 }
 .overflow-hidden {
   overflow: hidden;
@@ -2288,14 +2288,14 @@ strong {
 .text-\[14px\] {
   font-size: 14px;
 }
-.text-\[12px\] {
-  font-size: 12px;
+.text-\[20px\] {
+  font-size: 20px;
 }
 .text-\[15px\] {
   font-size: 15px;
 }
-.text-\[20px\] {
-  font-size: 20px;
+.text-\[12px\] {
+  font-size: 12px;
 }
 .font-medium {
   font-weight: 500;
@@ -2773,16 +2773,6 @@ strong {
     margin-bottom: 0px;
   }
 
-  .lg\:my-10 {
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-  }
-
-  .lg\:my-20 {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-  }
-
   .lg\:mt-24 {
     margin-top: 6rem;
   }
@@ -3031,6 +3021,10 @@ strong {
     width: 6rem;
   }
 
+  .lg\:w-\[68px\] {
+    width: 68px;
+  }
+
   .lg\:-translate-x-7 {
     --tw-translate-x: -1.75rem;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -3200,12 +3194,12 @@ strong {
     font-size: 30px;
   }
 
-  .lg\:text-\[16px\] {
-    font-size: 16px;
-  }
-
   .lg\:text-\[23px\] {
     font-size: 23px;
+  }
+
+  .lg\:text-\[16px\] {
+    font-size: 16px;
   }
 }
 
@@ -3388,6 +3382,10 @@ strong {
     width: 50px;
   }
 
+  .xl\:w-\[88px\] {
+    width: 88px;
+  }
+
   .xl\:translate-x-0 {
     --tw-translate-x: 0px;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -3499,24 +3497,24 @@ strong {
     font-size: 36px;
   }
 
-  .xl\:text-\[34px\] {
-    font-size: 34px;
-  }
-
-  .xl\:text-\[23px\] {
-    font-size: 23px;
-  }
-
-  .xl\:text-\[18px\] {
-    font-size: 18px;
-  }
-
   .xl\:text-\[30px\] {
     font-size: 30px;
   }
 
   .xl\:text-\[24px\] {
     font-size: 24px;
+  }
+
+  .xl\:text-\[18px\] {
+    font-size: 18px;
+  }
+
+  .xl\:text-\[23px\] {
+    font-size: 23px;
+  }
+
+  .xl\:text-\[34px\] {
+    font-size: 34px;
   }
 
   .xl\:leading-snug {
@@ -3680,6 +3678,10 @@ strong {
     width: 25%;
   }
 
+  .\32xl\:w-\[108px\] {
+    width: 108px;
+  }
+
   .\32xl\:gap-10 {
     gap: 2.5rem;
   }
@@ -3763,24 +3765,24 @@ strong {
     font-size: 24px;
   }
 
-  .\32xl\:text-\[48px\] {
-    font-size: 48px;
+  .\32xl\:text-\[28px\] {
+    font-size: 28px;
   }
 
   .\32xl\:text-\[38px\] {
     font-size: 38px;
   }
 
-  .\32xl\:text-\[23px\] {
-    font-size: 23px;
-  }
-
   .\32xl\:text-\[22px\] {
     font-size: 22px;
   }
 
-  .\32xl\:text-\[28px\] {
-    font-size: 28px;
+  .\32xl\:text-\[23px\] {
+    font-size: 23px;
+  }
+
+  .\32xl\:text-\[48px\] {
+    font-size: 48px;
   }
 
   .\32xl\:leading-tight {
