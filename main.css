@@ -79,11 +79,15 @@
   }
 
   .logoFixed {
-    @apply w-20 md:w-[100px] fixed top-5 -left-32 md:top-10 md:-left-32 z-10 transition-all duration-300;
+    @apply fixed top-0 -left-48 md:top-0 md:-left-56 z-10 transition-all duration-300 py-4 md:py-6 pl-10 pr-16 bg-gradient-to-r from-white via-white/70 to-white/0;
+
+    img {
+      @apply w-20 md:w-[100px];
+    }
   }
 
   .logoFixed.is-spying {
-    @apply left-5 md:left-10;
+    @apply left-0;
   }
 
   .heroNav {
@@ -93,14 +97,14 @@
       a {
         @apply leading-tight text-white font-medium hover:text-roxo duration-300 transition-all 
                 text-xl
-                lg:text-[26px]
-                2xl:text-3xl;
+                lg:text-[24px]
+                2xl:text-[28px];
       }
     }
     li.small {
       @apply w-full text-right mb-1;
       a {
-        @apply text-base lg:text-xl font-normal 2xl:text-[25px];
+        @apply font-normal text-base lg:text-[18px] 2xl:text-[21px];
       }
     }
   }
@@ -110,7 +114,7 @@
   }
 
   .ball {
-    @apply absolute bg-roxo w-[100px] h-[100px] hidden md:block rounded-full z-[2] opacity-100 duration-150 transition-all right-[50%] lg:top-10 translate-x-[430px] lg:translate-x-[564px] xl:translate-x-[658px] 2xl:translate-x-[808px];
+    @apply absolute bg-roxo w-[80px] h-[80px] hidden md:block rounded-full z-[2] opacity-100 duration-150 transition-all right-[50%] lg:top-10 translate-x-[430px] lg:translate-x-[564px] xl:translate-x-[658px] 2xl:translate-x-[808px];
   }
 
   .ball.fadeout {
@@ -133,7 +137,7 @@
     @apply flex;
 
     span {
-      @apply text-2xl md:text-3xl lg:text-[42px] 2xl:text-[50px] font-semibold text-roxo leading-none pt-1 lg:pt-2 xl:pt-4;
+      @apply text-[22px] md:text-[28px] lg:text-[38px] 2xl:text-[44px] font-semibold text-roxo leading-none pt-1 lg:pt-2 xl:pt-4;
     }
 
     span.white {
@@ -143,10 +147,10 @@
     h1 {
       @apply text-roxo leading-none
             pl-5 text-3xl
-            md:pl-8 md:text-[40px]
-            lg:pl-10 lg:text-[56px]
-            xl:pl-14 xl:text-[72px]
-            2xl:pl-20 2xl:text-[87px];
+            md:pl-8 md:text-[38px]
+            lg:pl-10 lg:text-[52px]
+            xl:pl-14 xl:text-[66px]
+            2xl:pl-20 2xl:text-[78px];
     }
     h1.white {
       @apply text-white;
@@ -166,15 +170,15 @@
         @apply mb-3 md:mb-4 w-full text-right last-of-type:mt-4;
         a {
           @apply leading-tight text-white font-medium hover:text-roxo duration-300 transition-all 
-                    text-xl
-                    md:text-[22px]
-                    2xl:text-[26px];
+                    text-lg
+                    md:text-[20px]
+                    2xl:text-[24px];
         }
       }
       li.small {
         @apply w-full text-right mb-1;
         a {
-          @apply text-base md:text-xl font-normal 2xl:text-[25px];
+          @apply text-base md:text-[18px] font-normal 2xl:text-[20px];
         }
       }
     }
@@ -187,7 +191,7 @@
       }
 
       div {
-        @apply text-white text-lg md:text-[22px] 2xl:text-[26px] leading-tight;
+        @apply text-white text-lg md:text-[20px] 2xl:text-[22px] leading-tight;
 
         span {
           @apply font-bold block;
@@ -201,10 +205,10 @@
   }
 
   .heroTitle {
-    @apply text-[38px] lg:text-[52px] xl:text-[68px] 2xl:text-[97px];
+    @apply text-[36px] lg:text-[52px] xl:text-[64px] 2xl:text-[90px];
   }
 
-  .quemSomos{
+  .quemSomos {
     @apply w-full bg-white mt-20 md:mt-40 lg:mt-48 bg-no-repeat bg-none sm:bg-quemsomos pb-10 md:pb-20 bg-[position:center_top_150px] bg-[length:1100px_auto]
     md:bg-[position:center_top_60px] md:bg-[length:1200px_auto]
     lg:bg-[length:1550px_auto]
@@ -238,27 +242,27 @@
   .borderquad4 {
     @apply absolute w-[22px] bg-roxo -left-[22px] z-[2]
     bottom-10 h-[120px] 
-    lg:h-[160px] 
-    xl:h-[200px] 
-    2xl:h-[250px];
+    lg:h-[100px] 
+    xl:h-[150px] 
+    2xl:h-[200px];
   }
 
   .em2021 {
     p {
-      @apply text-[22px] lg:text-[26px] xl:text-[32px] 2xl:text-[40px] leading-[0.98em] duration-300 transition-all;
+      @apply text-[20px] lg:text-[22px] xl:text-[28px] 2xl:text-[34px] leading-[0.98em] duration-300 transition-all;
     }
 
     .small {
-      @apply text-base lg:text-[22px] xl:text-[24px] 2xl:text-[30px] leading-[0.98em] duration-300 transition-all;
+      @apply text-[18px] lg:text-[20px] xl:text-[22px] 2xl:text-[28px] leading-[0.98em] duration-300 transition-all;
     }
   }
 
   .em2021Title {
-    @apply text-[80px] lg:text-[110px] xl:text-[150px] 2xl:text-[170px] leading-[0.98em] duration-300 transition-all;
+    @apply text-[60px] lg:text-[90px] xl:text-[110px] 2xl:text-[140px] leading-[0.98em] duration-300 transition-all;
   }
 
   .modalVideo {
-    @apply fixed top-0 left-0 w-full h-full flex justify-center items-center z-50 bg-roxo/90  transition-all duration-500 translate-y-secondaryout;
+    @apply fixed top-0 left-0 w-full h-full flex justify-center items-center z-50 bg-roxo/90 transition-all duration-500 translate-y-secondaryout;
   }
 
   .modalVideo.is-active {
@@ -321,5 +325,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .backToTop {
+    @apply flex justify-center cursor-pointer w-[200px] mx-auto relative z-10;
+
+    img {
+      @apply w-5 md:w-[2vw] group-hover:-translate-y-5 transition-all duration-300;
+    }
+
+    &__text {
+      @apply pt-2 md:pt-5 font-worksans text-center text-roxo text-[18px] md:text-[20px] lg:text-[28px] leading-none transition-all duration-300;
+    }
   }
 }
