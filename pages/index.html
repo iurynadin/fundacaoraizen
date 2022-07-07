@@ -5,7 +5,7 @@
         <wc-meta title="Fundação Raízen - Relatório de atividades 2021"></wc-meta>
         <!-- Swipper -->
         <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
-        <link rel="stylesheet" type="text/css" href="css/style.css?v=0.9.63" />
+        <link rel="stylesheet" type="text/css" href="css/style.css?v=0.9.64" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,700&family=Work+Sans:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
@@ -52,10 +52,7 @@
 
                     <wc-lang></wc-lang>
 
-                    <a href="#" class="secondaryNav__btn ">
-                        <img src="./svgs/ico-relatorio.svg" alt="ico relatorio">
-                        <div>Baixar o <span>Relatório de Atividades</span></div>
-                    </a>
+                    <wc-downreport></wc-downreport>
                 </nav>
             </div>
 
@@ -75,6 +72,10 @@
                     <div>
                         <div class="text-white heroTitle leading-[0.98em] font-medium">Relatório<br>de atividades</div>
                         <div class="text-roxo font-bold text heroTitle leading-tight m-0 p-0">2021</div>
+                    </div>
+
+                    <div class="absolute right-0 bottom-6 hidden md:block">
+                        <wc-downreport></wc-downreport>
                     </div>
                 </div>
 
@@ -723,6 +724,7 @@
     <script src="./wc-meta.js"></script>
     <script src="./wc-menu.js"></script>
     <script src="./wc-lang.js"></script>
+    <script src="./wc-downreport.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous" ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>

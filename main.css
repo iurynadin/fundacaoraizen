@@ -186,7 +186,7 @@
     &__btn {
       @apply text-right flex flex-col items-end;
 
-      img {
+      img, svg {
         @apply w-8 md:w-[36px] mb-1;
       }
 
